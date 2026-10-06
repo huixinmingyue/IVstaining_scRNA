@@ -1,0 +1,45 @@
+Core conclusion:
+  Six perivascular windows mark vessel-associated niches on the EAE
+  Visium section. T-cell and microglia POS versus NEG scores differ
+  among all immune spots and, separately, inside L1–L3 versus L4–L6.
+  Microglia POS/NEG geography is resolved inside each window.
+
+Figure archetype: asymmetric mixed-modality figure
+Target journal/output: Nature-family main figure; PDF/SVG/PNG/TIFF
+Backend: R (ggplot2 / patchwork / scattermore / svglite / cairo_pdf / ragg)
+Final size: 183 x 470 mm
+
+Panel map:
+  a  Vector schematic: coronal cut, slice, Visium ST
+  b  Sagittal Laminin/DAPI
+  c  Coronal IF; L1–L6 labelled
+  d  L1–L3 IF zooms plus L4–L6 crops
+  e  H&E and clusters with windows (L1–L6 zooms omitted)
+  f  T-cell POS/NEG maps; all-spot and L1–L3 vs L4–L6 boxplots
+  g  Microglia POS/NEG maps; all-spot and L1–L3 vs L4–L6 boxplots
+  h  Microglia POS/NEG crops for L1–L6; same boxplot design as f–g
+
+Evidence hierarchy:
+  hero: f/g whole-section scores and h window geography
+  support: a (workflow), b–d (IF), e (ST context)
+
+Statistics needed:
+  n immune spots overall and per window set
+  two-sided Wilcoxon POS vs NEG within all spots, L1–L3, L4–L6
+  box = median and IQR, whiskers 1.5x IQR
+
+Source data: Visium scores, expanded lesion rects, IF plates,
+  H&E lowres, cluster table
+
+Image-integrity notes:
+  IF plates are author rasters; no contrast stretch
+  H&E used as stored lowres; no local enhancement
+  L4–L6 IF crops in d are a frame stretch, not landmark registration
+  Panel a is a vector cartoon plus a real H&E/cluster thumbnail
+
+Reviewer risk:
+  L4–L6 can reverse the L1–L3 direction, so window sets stay split
+  L3 immune n = 237
+  Panel h boxes reuse the same Mg tests as panel g; unique claim is
+  the per-window crop geography
+  No calibrated scale bar on Visium H&E

@@ -1,0 +1,24 @@
+Fig. S1 | Library quality, marker support and compartment-restricted programmes.
+
+a, nCount RNA, nFeature RNA, mitochondrial percentage and a dissociation-stress
+module (mean log-normalised Fos, Jun, Junb, Atf3, Egr1, Dusp1, Zfp36, Hspa1a,
+Hspa1b, Btg2, Nfkbia and Ppp1r15a) in all 15,271 Fig. 1 cells. Violin, box
+(median and IQR). IV-, extravascular, n = 7,519; IV+, intravascular, n = 7,752.
+b, Dot plot of lineage markers across the display identities in Fig. 1d,e. Dot
+area encodes the percentage of cells with detectable expression and colour
+encodes mean expression z-scored across cell types and clipped to +/-2.5.
+Cd8b1, not Cd8a, is the CD8 decision gene.
+c, Wilcoxon volcano of IV+ versus IV- in B cells (n = 3,121 / 2,861). Italic
+labels mark the 21 genes that are also significant between marginal-zone
+(CITE C2) and follicular (CITE C0) B cells.
+d,e, Same test in hard-gated true CD4 (n = 260 / 925) and true CD8
+(n = 1,410 / 1,477). Labelled genes are the top 12 (d) or 10 (e) per direction
+after removing ribosomal, mitochondrial, Gm* and shared technical genes
+(Lars2, Cmss1, Gphn, Cdk8, Camk1d). Thresholds |log2FC| >= 0.5, adjusted
+P < 0.001.
+f, Plasma-cell expression of Ighm, Ighg1, Mki67, Sdc1 and Cxcr4 (n = 45 / 93).
+Aicda is omitted because it is undetectable in both compartments.
+
+Differential expression treats cells as the independent unit (one pooled sample
+per compartment) and is descriptive. Source data are provided as a Source Data
+file.

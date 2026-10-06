@@ -1,0 +1,17 @@
+Figure 7 statistics / integrity (Fig7_Nature_v3)
+Total microglia: 1807 (POS = 732, NEG = 1075).
+Cells per group x cluster:
+ group_show   0   1   2   3
+        POS  65 250 411   6
+        NEG 593 263 101 118
+Panel a: before 1807 after NA drop 1807; all retained
+Panel b: 8 rows; columns sum to 100% within group
+Panel c: 5 KEGG terms; FDR < 0.05: 1
+Panel d module-score table: 96 rows (48 all, 48 kept); Kept series omitted by request (1 series dropped)
+Panel d cell-level scores: before 1807 after NA drop 1807; All cells plotted; bars = mean ± s.e.m.
+Panel e: 38 genes (IL-17 7, NOD-like 15, Chemokine 16); row Z clipped to [-2.5, 2.5]
+Panel f: trajectory, 1807 cells, pseudotime 0.0-38.2
+Panel g: Cxcl10 and Id2 versus pseudotime; LOESS span 0.75 with 95% CI
+Panel h IF raster (previous g): 1037 x 610 px; no contrast change
+Cluster 3 POS n = 6 (descriptive)
+Figure size: 183 x 210 mm

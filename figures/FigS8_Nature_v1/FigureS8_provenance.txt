@@ -1,0 +1,28 @@
+Figure S8 v1 | provenance
+=========================
+
+Content origin
+  New SI figure assembled from published vector sources:
+  panels a-b and d from FigS6 Nature-vector (trajectory + heatmap);
+  panel c from Fig6 Nature v3 panel f (violins + BH Wilcoxon table).
+  Source tables, RDS objects, source figures and upstream scripts were
+  copied into this folder. Nothing outside this folder was overwritten.
+
+Panel map
+  a    DDRTree by State
+  b    DDRTree by CNS_IV / CNS_IVC
+  c    cluster x group violins (P2ry12, Hexb, Il1b, Cxcl2, Cxcl10, Id2)
+  d    50-gene pseudotime heatmap with programme sidebar
+
+Reuse level
+  Geometry follows the source ggplot recipes (DDRTree + MST; geom_violin
+  with BH stars; geom_tile z-scored bins). Colours for POS/IV and NEG/IVC
+  were unified to the trajectory palette. No cells were dropped.
+
+Reproduce
+  Rscript scripts/make_figureS8.R
+  Rscript qa/preview.R
+
+Image integrity
+  Vector line art and ggplot tiles. Trajectory shows all 1,807 cells.
+  Heatmap values are 8-bin means, z-scored. No microscopy.

@@ -1,0 +1,26 @@
+Fig. S11 visual QA
+
+Core conclusion matches the contract. Panel a places the scores, panel b places the effector genes on the high-scoring spots, panel c tests those same spot sets.
+
+Rendered checks
+- Final size 183 x 239 mm. SVG text 5.5, 6.0, 6.5, 7.0 and 8.0 px. Floor is 5 pt.
+- Panel tags a, b, c are bold and sit at the upper left of each row.
+- Cluster 5 POS scores trace a curved high-score domain; cluster 3 POS scores concentrate in a smaller domain; cluster 0 is broader. NEG maps for clusters 5 and 3 stay low.
+- Panel b: Lgals3 and Prdx1 light up on cluster-5 POS spots; Mki67 and Cxcl10 light up on cluster-3 POS spots. NEG maps for Lgals3, Mki67 and Cxcl10 stay dark. Prdx1 remains high on both POS and NEG, matching the non-significant test.
+- Panel c stars sit above the data. Prdx1 is labelled ns. Exact P values match the source plate.
+- Colour is a sequential scale shared within each numeric range. NEG/POS boxes are light and dark gray.
+- cairo_pdf reports Tf = 1 because the text size is carried in the transformation matrix. SVG font-size is the size check.
+
+Image integrity
+- Raw coordinates, prediction scores and four-gene expression were extracted from the Visium object used for the source plate and stored as CSV.
+- H&E raster is he_immune5.rds (600 x 600). One vertical flip aligns large imagerow with the top of the panel, the same flip as the source plate. Global fade only (0.9 toward white). No local contrast, crop of the section, or pseudo-colour of the H&E.
+- No calibrated scale bar was present on the source plate. Spot positions are Visium image coordinates.
+- Two spot columns are spatially detached from the tissue body: 21 spots near imagecol 83 (gap 56 px) and 39 spots near imagecol 530 (gap 38 px). They are plotted because they are in the object. Four of them rank inside a top-100 score list. They read as dotted lines beside the section. They were present on the source plate.
+
+Statistics
+- n = 3,101 spots in a; n = 100 spots per group in b and c.
+- Top 100 is the highest prediction scores, not a random sample.
+- One section. Wilcoxon tests are uncorrected spot contrasts.
+- Display cap at 2 on the spatial expression colour does not alter the values tested in c.
+
+Static preflight: 19 pass, 1 warn (R delimiter heuristic), 0 fail.

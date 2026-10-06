@@ -1,0 +1,4 @@
+Figure 8 | new folder Fig8_Nature_v4 (does not overwrite v1-v3).
+Reuse: structural adaptation of v3; h from Fig. S6 d crop layout.
+Panel a redrawn as vector sectioning/Visium schematic.
+Backend: R exclusive.

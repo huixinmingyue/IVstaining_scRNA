@@ -1,0 +1,33 @@
+Fig. S3 | The hard RNA gate is recovered by lineage detection and markers,
+and the Fig. 3 functional labels are recovered by the table marker set
+
+a, Percent of cells with RNA counts > 0 after the hard gate for Cd4, Cd8a,
+Cd8b1, Klrb1c, Cd3e, Ncr1 and Ms4a1. True CD4 is Cd4+ and Cd8/Klrb1c-
+negative by construction; true CD8 is Cd4-negative; NKT is Klrb1c+;
+cluster-2 doublets are Ms4a1-high. Unassigned cells retain Cd3e but lack
+detectable lineage RNA. n = 6,098 cells from the original CD4_T object.
+
+b-e, Feature plots and class violins for Cd4, Cd8b1, Klrb1c and Ms4a1.
+Cd4, Cd8b1 and Klrb1c peak in true CD4, true CD8 and NKT; Ms4a1 peaks in
+the cluster-2 doublet. Boxes show the median and interquartile range.
+Peak versus rest Wilcoxon P < 1e-15 for each gene.
+
+f, Dot plot of the annotation-table genes in the seven Fig. 3 display
+identities (naive CD4 T, n = 433; memory/activated CD4 T, n = 699;
+naive CD8 T, n = 1,374; memory-like CD8 T, n = 585; effector/cytotoxic
+CD8 T, n = 852; NKT-like T, n = 473; B-T doublet, n = 63). Colour is
+the per-gene z-scored mean of log-normalised RNA (clipped at +/- 2.2);
+dot size is the percent of cells with RNA > 0. Vertical guides separate
+naive, memory-CD4, Treg, CD8, cytotoxic, NKT, gamma-delta and doublet
+gene blocks. Trgc1 and Trgc2 are absent from the object. Unassigned,
+DP, CD4-other and CD8-other cells are omitted.
+
+g-j, Feature plots and identity violins for Ccr7, S100a4, Eomes and Ccl5,
+in the same layout as b-e. Feature plots show all 6,098 cells; violins
+are restricted to the seven annotated identities in f. Ccr7 peaks in
+naive CD8 T; S100a4 peaks in memory/activated CD4 T; Eomes and Ccl5 peak
+in effector/cytotoxic CD8 T. Boxes show the median and interquartile
+range. Peak versus rest Wilcoxon P < 1e-80 for each gene.
+
+Cells are the observation unit. Each compartment is one pooled sample.
+Source data are provided as a Source Data file.

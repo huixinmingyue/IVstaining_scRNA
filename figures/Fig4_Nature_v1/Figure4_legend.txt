@@ -1,0 +1,36 @@
+Fig. 4 | Spatial CD45-IV reference signatures in splenic B-cell, plasma-cell and CD4 T-cell compartments
+
+a, Louvain clusters 1 and 5 (B-cell niche) on the spleen Stereo-seq section;
+the complete section is drawn in grey behind the highlighted bins. All spatial
+panels share one coordinate frame. Scale bar, 1 mm. Centre, per-bin prediction
+scores for the CD45-IV-low and CD45-IV-high follicular B-cell reference
+signatures (Bcell.spcd452) in cluster 1 bins; the two maps share one colour
+scale spanning 0.01 to 0.55 (1st-99th percentile of the pooled scores). Right,
+paired scores in the same bins. The CD45-IV-high reference score is higher
+than the CD45-IV-low score (median paired difference +0.204, 95% CI +0.200
+to +0.208; two-sided Wilcoxon signed-rank P < 2.2e-16; n = 4,681 bins).
+
+b, Cluster 5 only. Centre and right, as in a for the Bcell.spcd45 signatures
+in cluster 5 bins (shared colour scale 0.06 to 0.46). Median paired difference
++0.096, 95% CI +0.093 to +0.100; P < 2.2e-16; n = 3,513 bins.
+
+c, Louvain clusters 4, 5, 8 and 9 (peri-follicular architecture containing
+the plasma-cell bins). Centre and right, plasma-cell signatures
+(Plasma.spcd452) in cluster 9 bins (shared colour scale 0.07 to 0.38).
+Median paired difference +0.096, 95% CI +0.091 to +0.100; P = 6.2e-162;
+n = 1,114 bins.
+
+d, Louvain clusters 1, 4, 5 and 8 (B/T follicular architecture). Centre and
+right, CD4 T-cell signatures (CD4T.spcd45) in cluster 8 bins (shared colour
+scale 0.08 to 0.40). The CD45-IV-high reference score is lower than the
+CD45-IV-low score (median paired difference -0.028, 95% CI -0.033 to -0.024;
+P = 9.6e-32; n = 1,920 bins).
+
+e, Clusters 4 and 8. Centre and right, CD4T.spcd45 signatures in cluster 4
+bins (shared colour scale 0.07 to 0.40). Median paired difference -0.015,
+95% CI -0.019 to -0.011; P = 1.5e-15; n = 3,911 bins.
+
+Boxes show the median and interquartile range; whiskers 1.5x the interquartile
+range; each point is one spatial bin. Statistics are paired because the two
+reference scores are measured in the same bin; no bin was excluded. Source
+data are provided as a Source Data file.

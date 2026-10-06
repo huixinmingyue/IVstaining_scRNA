@@ -1,0 +1,5 @@
+"contrast","n","note","median_high","median_low","median_paired_delta","ci_low","ci_high","p_value","frac_high_gt_low","test"
+"MZ vs Fo TransferData in Louvain 1+5",8194,"B niche bins",0.946234789298957,0.0537652107010432,0.876720247338767,0.87415646051007,0.879233858382097,0,0.999877959482548,"two-sided Wilcoxon signed-rank (paired by spatial bin)"
+"MZ vs Fo module score in Louvain 1+5",8194,"B niche bins",1.29179843162777,0.612994556827478,0.680249810767516,0.674709545957414,0.685815848372395,0,0.998047351720771,"two-sided Wilcoxon signed-rank (paired by spatial bin)"
+"CD4_1a vs CD4_1b in Louvain 1+4+5+8",14026,"B/T niche bins",0.487762623085069,0.0415986186423056,0.433926379360109,0.431037061934512,0.436812646821889,0,0.994296306858691,"two-sided Wilcoxon signed-rank (paired by spatial bin)"
+"CD8_0 vs CD4_1b in Louvain 1+4+5+8",14026,"B/T niche bins",0.170601900763419,0.0415986186423056,0.125455467039446,0.123287612960147,0.127591516993305,0,0.876301154997861,"two-sided Wilcoxon signed-rank (paired by spatial bin)"

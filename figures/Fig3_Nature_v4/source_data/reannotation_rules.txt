@@ -1,0 +1,9 @@
+RNA hard-gate reannotation of CD4_T (CD4T_reclustered_split_c1c3.rds).
+Priority: doublet_c2 > NKT (Klrb1c>0) > DP (Cd4 and Cd8a/Cd8b1) > true_CD4 > true_CD8 > unassigned.
+Detection = RNA counts > 0.
+Protein assay was not used for the gate.
+FindMarkers: Wilcoxon, IntraPos vs IntraNeg, min.pct=0.1, logfc.threshold=0.1.
+Display/significance: |log2FC|>=0.5, padj<0.001.
+Tech genes excluded from labelled sets: Lars2, Cmss1, Gphn, Cdk8, Camk1d, AY036118, Rpl/Rps/mt/Gm.
+Milo/scCODA not run: one pooled sample per IV compartment; abundance is Fisher OR + binomial SE.
+Protein features: Cd45-TotalSeqB

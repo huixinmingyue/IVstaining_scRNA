@@ -1,0 +1,10 @@
+Fig.3-2 slim extract provenance
+RData: Spatial_SP3.RData (spleen_spatial)
+a: SP_stereo louvain 1,5 <-> Bcell.tiff
+b: Bcell_stereo_ref2 Bcell.spcd45 <-> Bcell1.spcd45.tiff (max.cutoff 0.65)
+c: Bcell_stereo_ref2 Bcell.spcd452 <-> Bcell_stereo_ref2_Bcell.spcd452_Boxplot.tiff
+d: SP_stereo louvain 4,5,8,9 <-> pBTcell2.tiff
+e/f: plasma_stereo_ref Plasma.spcd452 <-> Plasma.spcd452.tiff + Plasma_spcd452_PredictionScore_Boxplot.tiff (max.cutoff 0.35)
+g: SP_stereo louvain 1,4,5,8 <-> BTcell.tiff
+h/i: Tcell_stereo_ref CD4T.spcd45 <-> CD4T.spcd45.tiff + Tcell_stereo_ref_CD4T.spcd45_Boxplot.tiff (max.cutoff 0.60)
+Scripts: extract_slim.R, extract_hi_only.R, make_figure3-2.R

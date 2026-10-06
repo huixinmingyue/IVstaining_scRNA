@@ -1,0 +1,38 @@
+Fig. S2 panel provenance (new folder; no old files overwritten)
+
+a  Query-marker and positioning-gene violins by B-cell subcluster
+   source panels: Figure_P3_cluster2_identity panel a AND
+                  Figure_P6_mechanism_residual panel a
+   data: FigS2a_violin_expr.csv (cell-level FetchData from Bcell_reclustered.rds);
+         P3_query_genes_mean_pct.csv and P6_mechanism_genes_by_cluster.csv
+         are the original summary tables (not sufficient for violins)
+   reuse: structural (one tagged panel; unique gene union)
+   exclusion: Cr2, Fcer2a, Cd1d1 were in both source panels; plotted once
+              in the query-marker block. n_genes_before = 15+10 = 25;
+              n_genes_after = 22. Reason: avoid duplicate violins of the
+              same cells and genes.
+
+b  ImmGen identity-gene heatmap
+   source panel: Figure_P2_identity_ImmGen_CITE panel c
+   data: P2_ImmGen_zscore_identity_genes.csv, P2_identity_gene_set.csv,
+         P2_expected_genes.csv, P2_ImmGen_peak_subset.csv
+   reuse: structural (same matrix, z clip +/-2.2, row split by logFC sign,
+          expected MZ/Fo gene marks). ComplexHeatmap wrap_elements clipped
+          column names in the assembled patchwork; ggplot geom_tile used
+          so the panel fills the slot. Scientific encoding unchanged.
+
+c  Within-cluster IV KEGG GSEA after nCount regression
+   source figure: Figure_P4_withinCluster_GSEA (entire figure; originally
+                  tagged as two columns a|b)
+   data: P4_gseKEGG_all.csv
+   reuse: exact (one letter spanning two columns; top 15 by p.adjust;
+          ring = FDR q < 0.05)
+
+d  Signaling subset of the same within-cluster IV KEGG GSEA as panel c
+   source: Figure_P4_withinCluster_GSEA (signaling rows of the same table)
+   data: P4_gseKEGG_all.csv; filter Description for "signaling"
+   reuse: exact encoding as panel c (titles, NES, Set size, -log10 P,
+          ring = FDR q < 0.05). Display top 15 signaling sets / cluster
+          by p.adjust. Y labels drop the repeated "signaling pathway"
+          suffix. FigS2d_kegg.csv is the originally copied Fig. 2 c-d
+          table and is not plotted.

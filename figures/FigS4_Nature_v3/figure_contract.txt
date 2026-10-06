@@ -1,0 +1,28 @@
+Core conclusion:
+  Anatomical genes recover follicle, marginal-zone and red-pulp landmarks
+  on the Stereo-seq spleen section. Follicle-centred radius traces Cr2 at
+  the cluster-5 edge and Fcer2a inside the follicle. Label transfer of
+  Fig. 3 naive / memory / effector T programmes onto the same section
+  places memory/activated CD4 T over naive CD4 T in B/T niches.
+
+Figure archetype: image plate + quant
+Target journal/output: Nature double column (SI)
+Backend: R (ggplot2 / patchwork / svglite / cairo_pdf / ragg)
+Final size: 183 x 270 mm
+Panel map:
+  a  Six anatomical gene maps as one lettered panel
+  b  Follicle-centred radial gene profiles
+  c  Five TransferData maps, Fig. 3 v4 functional titles, one row
+  d  Paired B/T-niche scores with the same names and colours
+Evidence hierarchy:
+  hero: a (anatomical landmarks)
+  support: b (radius recovers follicle vs MZ vs red pulp)
+  validation: c (Fig. 3 T programmes in situ)
+  support: d (paired scores in Louvain 1+4+5+8)
+Statistics needed: 1st-99th percentile colour limits; radial mean +/- SEM
+  with n >= 30 bins; paired Wilcoxon signed-rank in B/T niches
+Source data: section markers, radial rnorm, transfer scores
+Image-integrity notes: Stereo-seq bins as points; Y inverted; 1 mm
+  scale bar (0.5 um per chip unit); no microscopy photographs
+Reviewer risk: Effector/cytotoxic CD8 T transfer is near-floor; names
+  follow Fig. 3 v4 functional titles

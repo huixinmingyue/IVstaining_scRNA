@@ -1,0 +1,6 @@
+"group","spearman_rho","spearman_p","n_bins","facet"
+"Follicular B cells",0.366666666666667,0.331739801433015,9,"Follicular B"
+"Follicular B cells (Gpr183+)",-0.683333333333333,0.0424422720870724,9,"Follicular B (Gpr183+)"
+"Follicular B cells [3]",-0.0166666666666667,0.966054803994686,9,"Follicular B [3]"
+"Immature / pre-B cells",-0.433333333333333,0.243952435880052,9,"Immature / pre-B"
+"Marginal zone B cells",0.783333333333333,0.0125198730194499,9,"Marginal zone B"

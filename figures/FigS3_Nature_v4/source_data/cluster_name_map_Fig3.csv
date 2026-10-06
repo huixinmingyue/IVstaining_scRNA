@@ -1,0 +1,6 @@
+"cluster_ref","fig3_subtype","umap_short","display","s3_panel"
+"0","CD8-0","Naive CD8","Naive CD8 T","f"
+"1a","CD4-1a","Mem. CD4","Memory/activated CD4 T","g"
+"1b","CD4-1b","Naive CD4","Naive CD4 T","h"
+"3a","CD8-3a","Mem. CD8","Memory-like CD8 T","i"
+"3b","CD8-3b","Eff. CD8","Effector/cytotoxic CD8 T","j"

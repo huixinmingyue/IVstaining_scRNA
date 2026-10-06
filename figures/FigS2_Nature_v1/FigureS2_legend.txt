@@ -1,0 +1,29 @@
+Fig. S2 | B-cell subcluster identity, ImmGen MZ versus Fo recovery, and
+within-cluster IV GSEA.
+
+a, Log-normalised expression of query markers for cluster 2 (top) and of
+positioning genes that were unique to the mechanism screen (bottom). Violin
+width is scaled per cluster; black points are medians. Cluster 0, n = 4,310;
+cluster 1, n = 1,240; cluster 2, n = 425. Cr2, Fcer2a and Cd1d1 occur in both
+source panels and are shown once with the query markers. Cluster 2 is not a
+T1 (Cd93), germinal-centre (Mki67, Aicda, Bcl6) or plasmablast (Sdc1, Jchain,
+Xbp1) programme.
+b, Row-z-scored ImmGen splenic B-subset peaks for the 85 genes that
+distinguish cluster 1 from cluster 0. Rows are split by the sign of the
+cluster 1 versus 0 log-fold change and ordered by decreasing MZ z-score.
+Colour is clipped to +/-2.2. Italic labels mark expected MZ (Cr2, Cd1d1,
+Cd9, Cd36, Plac8) and Fo (Fcer2a, Ighd, Ighm, Sell) genes. Cluster 1 up
+genes peak in MZ; cluster 0 up genes peak in Fo.
+c, Within-cluster gseKEGG of IV+ versus IV- after nCount regression and
+technical-gene drop (minGSSize 15). Each column shows the 15 pathways with
+the smallest FDR q; filled rings mark q < 0.05 (n = 8 in cluster 1; n = 28
+in cluster 0). Point area is gene-set size; fill is -log10 nominal P.
+Enriched sets are housekeeping and metabolic rather than a vascular-induction
+programme.
+d, Signaling subset of the same within-cluster gseKEGG table as c (56 sets
+in cluster 1; 55 in cluster 0). Display and identifiers match c: NES, set
+size, -log10 P, ring = FDR q < 0.05 (n = 1 in cluster 1, Integrated stress
+response; n = 4 in cluster 0). Y labels omit the repeated "signaling
+pathway" suffix.
+
+Source data are provided as a Source Data file.

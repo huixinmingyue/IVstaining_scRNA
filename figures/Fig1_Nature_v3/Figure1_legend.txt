@@ -1,0 +1,28 @@
+Fig. 1 | Intravascular antibody labelling separates intravascular from extravascular splenic
+immune cells for single-cell transcriptomics
+
+a, Immunofluorescence of a spleen section stained for B220 (blue), CD4 (red) and DCIR2 (white),
+shown as single channels and as a merge. Scale bars, XX um [confirm calibrated length].
+
+b, Immunofluorescence of a spleen section stained for F4/80 (red), laminin (PLM, magenta) and
+CD45 (green), shown as single channels and as a merge. Scale bars, XX um [confirm calibrated
+length].
+
+c, Flow-cytometric separation of intravascular and extravascular leukocytes. Cells were labelled
+in vivo with intravenously injected anti-CD45 (Intra CD45) and ex vivo with anti-CD45 (Extra
+CD45); IV+ (POS) and IV- (NEG) fractions were sorted and processed for single-cell RNA
+sequencing as depicted in the workflow schematic.
+
+d, UMAP embedding of all 15,271 sorted cells, split by compartment and coloured by cell type.
+Original CD4 T / CD8 T labels were replaced by an RNA rule: Cd3 (Cd3e/d/g) defines T lineage
+and Cd8b1 (not Cd8a) decides CD8 versus CD4; Klrb1c marks NKT-like cells; Ms4a1+Cd79a with
+Cd3 marks B-T doublets. n = 7,519 cells (IV-, extravascular) and n = 7,752 cells (IV+,
+intravascular). Every recovered cell is plotted; no display subsampling was applied.
+
+e, Cell-type composition of each compartment, expressed as the percentage of all cells recovered
+in that compartment. Values are printed next to each bar. Lineages are ordered by mean abundance
+across both compartments. The same identities and colours are used in d.
+
+Canonical marker support for these identities is shown in Fig. S1a. Proportions in e derive from
+one pooled sample per compartment, so no replicate-level statistical test was performed and no
+error bars are shown. Source data are provided as a Source Data file.

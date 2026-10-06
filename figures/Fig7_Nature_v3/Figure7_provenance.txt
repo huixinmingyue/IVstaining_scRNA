@@ -1,0 +1,7 @@
+Figure 7 | new folder Fig7_Nature_v3 (does not overwrite Fig7_Nature_v1 or Fig7_Nature_v2).
+Reuse level: exact reuse of Fig7_Nature_v2 a-e; previous f split into f and g; previous g relabelled h.
+Panels a-e: same observations as Fig7_Nature_v2 a-e.
+Panel f: trajectory maps (pseudotime and cluster).
+Panel g: Cxcl10 and Id2 along pseudotime.
+Panel h: IF raster embedded at native aspect; no resampling or channel adjustment.
+Backend: R exclusive.

@@ -1,0 +1,59 @@
+Figure 7 | QA record — Fig7_Nature_v3
+====================================
+
+This folder is new and does not overwrite Fig7_Nature_v1 or
+Fig7_Nature_v2.
+
+Requested change
+----------------
+Split previous f into f (trajectory maps) and g (Cxcl10 / Id2
+along pseudotime). Place f, g and the previous g (IF) on one row.
+Relabel the IF plate as h.
+
+Reuse level
+-----------
+Exact reuse of Fig7_Nature_v2 a-e (same observations, statistics,
+transforms). Previous f is a structural split only. Previous g is
+now h; the IF raster is unchanged.
+
+Panel-by-panel visual audit
+---------------------------
+a  All 1,807 microglia (732 POS; 1,075 NEG). Cluster indices on
+   medoids. Vector points. POS cluster 3 is small (n = 6).
+b  Stacked composition; segments < 5% unlabelled.
+c  Five signalling KEGG terms; only IL-17 reaches FDR < 0.05.
+d  Mean module score ± s.e.m. on all 1,807 cells. Kept series omitted.
+e  38 leading-edge genes; row Z clipped to [-2.5, 2.5]. Hero panel.
+f  Monocle trajectory maps (pseudotime and cluster), all 1,807 cells.
+g  Cxcl10 and Id2 versus native pseudotime; LOESS span 0.75 with
+   95% confidence band. Cxcl10 falls and Id2 rises on this axis.
+h  Representative IF plate; channel labels are on the source raster.
+   No calibrated scale bar in the supplied image.
+
+Data integrity
+--------------
+Panels a-e: same row counts as Fig7_Nature_v2.
+Panel f: 1,807 cells, pseudotime 0.0-38.2.
+Panel g: same cells and genes as the lower half of previous f.
+Panel h: 1037 x 610 px; no contrast change.
+No sampling, no simulated values.
+
+Typography and export
+---------------------
+Family Arial. SVG font sizes 5.18-8.0 pt. Canvas 183 x 210 mm.
+PNG 4322 x 4960 px = 182.96 x 209.97 mm at 600 dpi.
+PDF/SVG text editable. Rasterised: panel h only.
+
+Automated checks
+----------------
+validate_figure.py: 18 pass, 2 warn, 0 fail. Warnings: R delimiter
+check; log10 is plotmath in the GSEA colourbar, not a data transform.
+cairo_pdf Tf = 1 pt is the known false positive; SVG sizes are 5.18-8.0 pt.
+
+Reviewer items
+--------------
+1. Cluster 3 POS n = 6; treat group contrasts as descriptive.
+2. Only 1 of 5 KEGG terms in c reaches FDR < 0.05.
+3. Panel h needs a calibrated scale bar and biological-replicate n
+   before submission.
+4. Module scores are RNA AddModuleScore, not protein/CITE.

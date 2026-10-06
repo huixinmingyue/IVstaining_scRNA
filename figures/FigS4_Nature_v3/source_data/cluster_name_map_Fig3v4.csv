@@ -1,0 +1,6 @@
+"source_map_title","transfer_col","fig3_v3_label","fig3_v4_label","s4_role"
+"true CD4 1a (Maf-high)","T.CD4_1a","CD4 1a","Memory/activated CD4 T","c"
+"true CD4 1b (Tcf7-high)","T.CD4_1b","CD4 1b","Naive CD4 T","c"
+"TNK CD8 cluster 0","T.CD8_0","CD8 0","Naive CD8 T","c"
+"TNK CD8 cluster 3a","T.CD8_3a","CD8 3a","Memory-like CD8 T","c"
+"TNK CD8 cluster 3b","T.CD8_3b","CD8 3b","Effector/cytotoxic CD8 T","c"

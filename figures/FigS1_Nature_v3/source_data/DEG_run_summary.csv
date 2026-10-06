@@ -1,0 +1,7 @@
+"label","n_total","n_IntraNeg","n_IntraPos","status","n_genes_tested","n_IntraPos_up","n_IntraNeg_up","n_sig_after_tech_filter","n_IntraPos_up_filt","n_IntraNeg_up_filt"
+"true_CD4",1185,925,260,"ok",4811,49,16,54,38,16
+"true_CD8",2887,1477,1410,"ok",4483,51,121,151,34,117
+"NKT",473,143,330,"ok",5184,7,5,3,1,2
+"trueCD4_1a",699,538,161,"ok",5121,44,9,42,33,9
+"trueCD4_1b",433,356,77,"ok",5047,14,4,6,2,4
+"original_CD4_T",6098,3489,2609,"from_saved_table",6298,119,253,335,90,245

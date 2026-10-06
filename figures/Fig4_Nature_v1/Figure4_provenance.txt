@@ -1,0 +1,30 @@
+Figure 4 | provenance
+=====================
+
+Content origin
+  Rebuilt as a five-row main figure from two prior vector packages, copied
+  unchanged into source_data/ and source_figures/. Nothing outside this
+  folder was written to.
+
+Panel map
+  a  B-cell niche clusters 1, 5; Bcell.spcd452 in cluster 1 bins
+  b  Cluster 5; Bcell.spcd45 in cluster 5 bins
+  c  Peri-follicular clusters 4, 5, 8, 9; Plasma.spcd452 in cluster 9
+  d  B/T follicular clusters 1, 4, 5, 8; CD4T.spcd45 in cluster 8
+  e  Clusters 4, 8; CD4T.spcd45 in cluster 4
+
+Reuse level
+  Structural adaptation of the Fig. 4 v2 drawing code (shared section
+  frame, sequential score ramp, paired Wilcoxon). Rows b and e keep the
+  SI cluster subsets and signature columns; POS/NEG labels and unpaired
+  tests were not carried over.
+
+Reproduce
+  Rscript scripts/make_figure4.R
+  Rscript qa/preview.R
+
+Image integrity
+  No contrast adjustment, cropping or retouching. Colour-scale range is
+  the 1st-99th percentile of the pooled low/high scores in that row;
+  out-of-range bins take the end colour. Underlying values are unchanged
+  and are in source_data_plotted/.

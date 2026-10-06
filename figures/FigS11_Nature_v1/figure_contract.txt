@@ -1,0 +1,31 @@
+Fig. S11 | Spatial mapping of MCAO microglia subtypes and effector-gene enrichment
+Reuse level: exact (same geometry, same observations, same colour mapping as the supplied Fig. S8 plate)
+Backend: R (ggplot2 / patchwork). Exclusive for drawing, export, and visual QA.
+
+Core conclusion:
+On one representative MCAO Visium section, prediction scores for inflammatory microglia (cluster 5) and proliferative microglia (cluster 3) occupy restricted domains, and Lgals3, Mki67 and Cxcl10 expression is higher in the 100 highest-scoring POS spots than in the 100 highest-scoring NEG spots; Prdx1 is not.
+
+Evidence chain:
+a. Where do cluster 5, 3 and 0 prediction scores sit on the section? (context; cluster 0 is the homeostatic contrast)
+b. Do the effector genes sit on the high-scoring POS spots rather than the high-scoring NEG spots? (hero)
+c. Is that spot-set difference supported by a two-sided Wilcoxon rank-sum test? (quantification of the same top-100 sets)
+
+Archetype: image plate + quant
+Hero panel: b
+Journal: Nature Communications supplementary information
+Final size: 183 mm x 239 mm (double column; aspect matched to the 180 x 235 mm source plate)
+Type: Arial, 5.5–8 pt
+Exports: SVG, PDF, PNG preview, TIFF 600 dpi
+Colour: viridis sequential scale, shared within each numeric range; grayscale-safe. Not rainbow/jet/hsv.
+Panel c fills: NEG #D9D9D9, POS #595959
+
+Data rules (not rendering shortcuts):
+- Panel a uses every spot on the section (n = 3101).
+- Panels b and c use the 100 spots with the highest prediction score for the named feature (p-5, n-5, p-3 or n-3). This is the comparison defined by the source plate.
+- Spatial colour for expression is displayed on 0–2; values above 2 are drawn at the top colour (squish). Panel c shows the uncapped values.
+- H&E is faded globally (0.9 toward white) and flipped once so large imagerow is toward the top of the panel. No local contrast edit.
+
+Statistics:
+- Unit: Visium spots on one section, not biological replicates.
+- Test: two-sided Wilcoxon rank-sum, exact = FALSE, uncorrected across the four genes.
+- Box: median, IQR, whiskers 1.5 x IQR; points are spots.

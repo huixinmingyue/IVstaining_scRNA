@@ -1,0 +1,27 @@
+Core conclusion:
+  A hard RNA gate splits the original CD4_T object into bona fide CD4, CD8
+  and NKT. CD4 1b/1a and CD8 0/3a/3b are naive, memory/activated and
+  effector programmes. Identities occupy both IV compartments but shift
+  in composition (naive and memory CD4 in IV-, effector CD8 and NKT in
+  IV+). Residual true-CD4 Intra DEGs map to ImmGen NKT/NK versus naive
+  CD4/Treg.
+
+Figure archetype: quantitative grid (panel b hero)
+Target journal/output: Nature double column
+Backend: R (ggplot2 / patchwork / svglite / cairo_pdf / ragg)
+Final size: 183 x 216 mm
+Panel map:
+  a  IV-split UMAP with functional labels on 1a/1b and 0/3a/3b
+  b  Subtype composition, Fig. 1e style
+  c  ImmGen z of true-CD4 Intra DEGs
+  d  Nine ImmGen identity modules matching panel c columns
+Evidence hierarchy:
+  hero: b (composition shift of functional subtypes)
+  support: a (shared UMAP)
+  validation: c, d
+Statistics needed: chi-square on subtype x IV; marker means in
+  source_data/functional_annotation.txt
+Source data: cell_metadata_reannotated, Fig3_T_cells, ImmGen modules
+Image-integrity notes: no micrographs
+Reviewer risk: Treg is not a separate island (Foxp3 12% in CD4 1a);
+  no gamma-delta cluster; Cd4 dropout; one pooled sample per compartment

@@ -1,0 +1,5 @@
+"gene","wilcox_p","n_per_group","object","test"
+"Lgals3",5.2236002279159e-28,100,"sce_immune5","two-sided Wilcoxon rank-sum (exact = FALSE)"
+"Prdx1",0.215580711472319,100,"sce_immune5","two-sided Wilcoxon rank-sum (exact = FALSE)"
+"Mki67",2.99586862845429e-17,100,"sce_immune5","two-sided Wilcoxon rank-sum (exact = FALSE)"
+"Cxcl10",6.98571779004194e-08,100,"sce_immune5","two-sided Wilcoxon rank-sum (exact = FALSE)"

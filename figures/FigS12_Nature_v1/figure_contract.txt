@@ -1,0 +1,48 @@
+Core conclusion:
+  Two independent mouse Visium sections recapitulate n-/p- microglia
+  subtype maps (clusters 5, 3 and 0) and POS-spot enrichment of
+  Lgals3, with Prdx1 not significant on either section.
+
+Figure archetype: image plate + quant
+Target journal/output: Nature-family SI; 183 mm double column
+Backend: R exclusive (ggplot2 / patchwork / svglite / cairo_pdf / ragg)
+Final size: 183 x 245 mm
+
+Panel map:
+  a  Section 1 prediction scores, clusters 5 / 3 / 0, NEG vs POS
+  b  Section 1 top-100 POS/NEG spots for Lgals3, Prdx1 (cluster 5)
+     and Mki67 (cluster 3), on H&E, plus Wilcoxon boxplots
+  c  Section 2 prediction scores, same layout and colour scale as a
+  d  Section 2 gene maps and boxplots, same genes and n as b
+
+Evidence hierarchy:
+  hero: a and c (independent sections, shared 0-0.5 scale)
+  support: b and d (effector-gene enrichment on top-100 spots)
+
+Statistics needed:
+  n = 100 spots / group for boxplots
+  two-sided Wilcoxon rank-sum, exact = FALSE (Wilcoxon with ties)
+  centre = median; box = IQR; whiskers = 1.5 x IQR
+  prediction colour limits 0-0.5, hard-clipped
+  gene colour limits 0-2, hard-clipped
+
+Source data needed:
+  slim_immune2.rds, slim_immune4.rds, he_immune2.rds, he_immune4.rds
+
+Image-integrity notes:
+  H&E global alpha 0.90 only; no contrast stretch
+  Prediction maps have no H&E (score-only)
+  Gene maps overlay H&E; spots are the top 100 by prediction score
+
+Reviewer risk:
+  Top-100 display is a ranked subset, not all spots
+  Six Wilcoxon tests are uncorrected across genes/sections
+  Prdx1 is ns on both sections; section-2 Mki67 is ns
+  n is spatial spots on two sections, not biological mouse replicates
+  No calibrated scale bar on Visium H&E
+
+Reuse:
+  Structural adaptation of the native ggplot Visium build that
+  replaced the raster plate assembly. Panel letters and display
+  labels (NEG/POS) are updated for Fig. S12. Scientific content,
+  colour limits, n = 100 rule, and Wilcoxon P values are unchanged.

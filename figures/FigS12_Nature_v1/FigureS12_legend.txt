@@ -1,0 +1,6 @@
+Fig. S12 | Spatial microglia subtype maps and effector-gene enrichment on two independent mouse Visium sections.
+a, Spatial NEG and POS prediction scores for microglia clusters 5, 3 and 0 on Visium section 1. Colour scale 0–0.5; values outside the range are clipped.
+b, Spatial expression of Lgals3 and Prdx1 on the top 100 cluster-5 POS or NEG spots, and of Mki67 on the top 100 cluster-3 POS or NEG spots (section 1), overlaid on Visium H&E (image alpha = 0.90), with matching boxplots. Centre line, median; box, IQR; whiskers, 1.5×IQR; points, individual spots (n = 100/group). Two-sided Wilcoxon rank-sum tests. Exact P: Lgals3, 1.84×10⁻³³; Prdx1, 0.733 (ns); Mki67, 4.08×10⁻⁸.
+c, Spatial NEG and POS prediction scores for clusters 5, 3 and 0 on Visium section 2, on the same colour scale as a.
+d, As in b for section 2. Exact P: Lgals3, 2.16×10⁻³⁴; Prdx1, 0.409 (ns); Mki67, 0.729 (ns).
+Prediction scores describe transcriptional resemblance to a sorted reference population. n is spatial spots on two sections, not biological mouse replicates. Source data are provided as a Source Data file.

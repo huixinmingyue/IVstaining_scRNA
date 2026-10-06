@@ -1,0 +1,5 @@
+Figure S9 | new folder FigS9_Nature_v3 (does not overwrite v1 or v2).
+Reuse: structural adaptation of FigS9 v2.
+Panel b: Ccl2 replaced by Cxcl10 from the source spatial map.
+Cxcl10 colour scale locked at 0-2.5; same barcodes and H&E frame.
+Backend: R exclusive.

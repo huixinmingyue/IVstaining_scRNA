@@ -1,0 +1,14 @@
+CITE T cells: QC drop then recluster then subset (Fig. S6 v2)
+Parent T object n = 4314
+After dropping first-pass B-T doublet and myeloid-contaminated: 3837
+After recluster / residual QC subset: 3837
+Recluster: NormalizeData, 2000 HVG, ScaleData, PCA 30, neighbors/UMAP dims 1:15, RNA_snn res 0.2
+UMAP panels a and d use this reclustered embedding; d is the high/low oligo-CD45 subset of it.
+
+New cluster -> Fig. 3 v4 taxonomy (cluster-level majority markers):
+0  n=1411  Naive CD4 T
+1  n=1205  Naive CD8 T
+2  n=611  Unassigned
+3  n=446  Memory/activated CD4 T
+4  n=164  Memory-like CD8 T
+DEG class: Memory/activated CD4 T

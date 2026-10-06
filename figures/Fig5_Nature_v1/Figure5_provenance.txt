@@ -1,0 +1,26 @@
+Figure 5 | provenance
+=====================
+
+Content origin
+  Rebuilt as a seven-panel main figure from two prior vector packages,
+  copied unchanged into source_data/ and source_figures/. Nothing outside
+  this folder was written to.
+
+Panel map
+  a-d  schematic, no-C4 UMAP, oligo-CD45 violins, binned subtype share
+  e-g  no-C4 UMAP split and composition at PF >= 6 vs <= 1; MZ DEG
+       (C2, ge6 vs le1) with Cd274 added from the supplied Wilcoxon row
+
+Reuse level
+  Exact reuse of Fig. 3 v2 a-d drawing logic (paths and panel letters
+  updated). Style-only inheritance for e-g: same statistics and cell
+  sets, Fig. 3 v2 subtype palette and plain-text volcano axes.
+
+Reproduce
+  Rscript scripts/make_figure5.R
+  Rscript qa/preview.R
+
+Image integrity
+  No contrast adjustment of the schematic beyond placing the supplied
+  PNG. Colour and fold-change filters in g are those of the source
+  export; Cd274 is the only added point and is documented in the legend.

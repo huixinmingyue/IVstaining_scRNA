@@ -1,0 +1,30 @@
+Fig. 1 lineage display rules (v3)
+=================================
+Original CD4_T / CD8_T labels are replaced by the RNA-rule classes from
+Figure_TNK_reannotation panel b. Non-T lineages keep their original labels.
+No cell is dropped (n = 15,271).
+
+T-lineage rule (applied only to original CD4_T + CD8_T; identical to panel b)
+  Cd3 (Cd3e/d/g UMI > 0) defines T; Cd8b1 (not Cd8a) decides CD8 versus CD4;
+  Klrb1c marks NKT-like; Ms4a1+Cd79a with Cd3 marks B-T doublets.
+
+  B-T doublet        B_strong AND T_pos
+  B contaminant      B_strong AND NOT T_pos
+  NKT-like           T_pos AND Klrb1c+ AND NOT CD4+
+  CD4/CD8 DP         T_pos AND CD4+ AND CD8b1+
+  CD8 T              T_pos AND CD8b1+ AND NOT CD4+
+  CD4 T              T_pos AND CD4+ AND NOT CD8b1+
+  T other            remaining T_pos
+  NK-like            Ncr1+ AND NOT T_pos
+  unresolved         remainder
+
+Display lumping on Fig. 1 / Fig. S1a (rare classes only)
+  B contaminant (n = 12)  ->  B cell     (RNA identity is B)
+  NK-like       (n =  2)  ->  NK         (RNA identity is NK)
+  unresolved    (n =112)  ->  T other    (no CD4/CD8/NKT call)
+
+Kept as distinct display classes
+  CD4 T, CD8 T, NKT-like, CD4/CD8 DP, T other, B-T doublet,
+  B cell, cDC2, NK, Plasma cell, Neutrophil
+
+Original NK is not split (NK clean / contaminant is an audit result, not Fig. 1).

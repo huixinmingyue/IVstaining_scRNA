@@ -1,0 +1,9 @@
+Fig. S10 | Lineage markers, microglia signatures, NEG/POS composition, and pathway enrichment.
+
+a, Feature plots of canonical lineage markers on Stroke immune cells.
+b, Feature plots of AddModuleScore signatures (macrophage/microglia activation, ischemic-associated microglia, MHC genes, lipid metabolism) on the Stroke UMAP (blue scale).
+c, UMAP of Stroke immune cells split into NEG and POS. NEG is the merged n1 and n2 samples; POS is the merged p1 and p2 samples. Points are coloured by cluster. Every cell is shown.
+d, Cluster proportions within NEG versus POS. Each bar sums to 100% of that group.
+e, Top KEGG GSEA terms ending in 'signaling pathway' for cluster 5 versus cluster 0. Dot size, setSize; colour, -log10(FDR q).
+f, Eighteen WikiPathways signaling terms (8 with positive NES and 10 with negative NES). Dot size, setSize; colour, -log10(FDR q).
+Source data are provided as a Source Data file.

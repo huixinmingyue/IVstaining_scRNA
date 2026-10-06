@@ -1,0 +1,11 @@
+"PF_class","Bcelltype","n","pct","total"
+"Low (PF<=1)","Follicular B cells",294,33.7543053960964,871
+"Low (PF<=1)","Follicular B cells (Gpr183+)",383,43.9724454649828,871
+"Low (PF<=1)","Follicular B cells [3]",90,10.3329506314581,871
+"Low (PF<=1)","Immature / pre-B cells",5,0.574052812858783,871
+"Low (PF<=1)","Marginal zone B cells",99,11.3662456946039,871
+"High (PF>=6)","Follicular B cells",617,34.013230429989,1814
+"High (PF>=6)","Follicular B cells (Gpr183+)",723,39.8566703417861,1814
+"High (PF>=6)","Follicular B cells [3]",180,9.92282249173098,1814
+"High (PF>=6)","Immature / pre-B cells",7,0.385887541345094,1814
+"High (PF>=6)","Marginal zone B cells",287,15.8213891951488,1814

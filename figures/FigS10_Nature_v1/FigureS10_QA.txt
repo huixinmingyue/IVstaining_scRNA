@@ -1,0 +1,12 @@
+Figure S10 | new folder. Does not overwrite the source figure or any earlier folder.
+Generated: 2026-09-28 16:02:55.288969
+Final size: 183 x 247 mm
+Exports: FigureS10.pdf / .svg / .png / .tiff (600 dpi)
+Backend: R exclusive; native ggplot2 geom_point.
+
+Panel b colour: light blue (#DEEBF7) to deep blue (#08306B).
+Panel c/d display labels: n (n1+n2) shown as NEG; p (p1+p2) shown as POS.
+Panel c draws every cell. Cluster numbers are medians of the full set.
+Panel b titles are wrapped so neighbouring gene-set names stay apart.
+Colour-scale titles use a full-size Unicode subscript so every glyph is at least 5 pt.
+cairo_pdf Tf = 1 is a CTM false positive; judge size from the SVG.

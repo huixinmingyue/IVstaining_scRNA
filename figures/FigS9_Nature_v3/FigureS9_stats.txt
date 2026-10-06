@@ -1,0 +1,10 @@
+Figure S9 statistics / integrity (FigS9_Nature_v3)
+Immune Visium spots: 32811.
+Windows: L1-L3 n = 4655; L4-L6 n = 8982 (same rects as Fig. 8).
+Panel a heatmap display cells: 8720 -> 540 (<=60 spots/cluster)
+Panels c-g: POS/NEG titles; pt.size.factor = 1.00; Mg maps omitted.
+Panel b Cxcl10 scale 0-2.5; spots clipped above 2.5: 514 of 587746.
+Panel h all-spot Wilcoxon: DC <2.2e-16; B <2.2e-16; Neu1 <2.2e-16; PC <2.2e-16; Mac <2.2e-16
+Panel h window Wilcoxon: DC L1-L3 <2.2e-16; DC L4-L6 <2.2e-16; B L1-L3 <2.2e-16; B L4-L6 0.0408; Neu1 L1-L3 <2.2e-16; Neu1 L4-L6 <2.2e-16; PC L1-L3 <2.2e-16; PC L4-L6 <2.2e-16; Mac L1-L3 <2.2e-16; Mac L4-L6 0.00572
+Image integrity: H&E global alpha 0.9; no contrast stretch.
+Figure size: 183 x 248 mm

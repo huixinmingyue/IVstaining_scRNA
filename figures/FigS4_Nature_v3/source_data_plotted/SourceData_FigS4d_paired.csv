@@ -1,0 +1,3 @@
+"panel","contrast","n","median_paired_delta","ci_low","ci_high","p_value"
+"d_left","Memory/activated CD4 T vs Naive CD4 T",14026,0.433926377201457,0.431037061934512,0.436812646821889,0
+"d_right","Naive CD8 T vs Naive CD4 T",14026,0.125455468026268,0.123287612960147,0.127591516993305,0

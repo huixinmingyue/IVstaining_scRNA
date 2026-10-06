@@ -1,0 +1,23 @@
+"celltype","t_class_raw","lineage","rule","n"
+"Bcell",NA,"B cell","identity kept",5970
+"CD4_T","CD8 T","CD8 T","identity kept",2696
+"CD4_T","T other","T other","identity kept",1432
+"CD4_T","CD4 T","CD4 T","identity kept",1221
+"cDC2",NA,"cDC2","identity kept",1198
+"NK",NA,"NK","identity kept",1036
+"CD8_T","B-T doublet","B-T doublet","identity kept",622
+"CD4_T","NKT-like","NKT-like","identity kept",427
+"CD4_T","CD4/CD8 DP","CD4/CD8 DP","identity kept",176
+"Plasma",NA,"Plasma cell","identity kept",138
+"CD4_T","unresolved","T other","unresolved -> T other",96
+"Neutrophils",NA,"Neutrophil","identity kept",82
+"CD4_T","B-T doublet","B-T doublet","identity kept",46
+"CD8_T","CD8 T","CD8 T","identity kept",44
+"CD8_T","T other","T other","identity kept",32
+"CD8_T","CD4 T","CD4 T","identity kept",16
+"CD8_T","unresolved","T other","unresolved -> T other",16
+"CD8_T","B contaminant","B cell","B contaminant -> B cell",10
+"CD8_T","NKT-like","NKT-like","identity kept",6
+"CD8_T","CD4/CD8 DP","CD4/CD8 DP","identity kept",3
+"CD4_T","B contaminant","B cell","B contaminant -> B cell",2
+"CD4_T","NK-like","NK","NK-like -> NK",2

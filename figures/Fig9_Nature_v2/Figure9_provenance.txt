@@ -1,0 +1,9 @@
+Figure 9 | new folder. Does not overwrite the source figure or any earlier folder.
+Structural adaptation of the previous Figure 8.
+Panel d repeats the panel-c five-tile layout on the L4-L6 bounding box.
+Panels a and b add window-wise score violins beside the maps.
+Panel g draws the L1-L3 Cxcl10 bar (EAE_NEG n = 3) on its own y axis.
+Panel i draws the L1-L3 distance violin (MgIVC n = 3).
+Panels e, g and i test L4-L6 separately from L1-L3.
+The previous pMCAO glycolysis panel is omitted.
+Backend: R exclusive.

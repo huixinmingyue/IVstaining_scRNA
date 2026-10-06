@@ -1,0 +1,33 @@
+Fig. S1 panel provenance (new folder; no old files overwritten)
+
+a  QC violins (nCount, nFeature, mito %, stress module) by IV
+   source panel: Figure_QC_DEG_plasma panel a
+   data: cell_audit_table.csv, QC_by_IV.csv
+   reuse: exact (axis labels shortened to IV− / IV+)
+
+b  Lineage marker dot plot for the Fig. 1 display identities
+   source panel: FigS1_Nature_v2 FigureS1 (entire panel; originally tagged a)
+   data: FigS1b_markers_dotplot.csv, lineage_order.csv
+   reuse: exact
+
+c  B-cell IntraPos vs IntraNeg volcano; labels = MZ vs Fo intersection
+   source panel: FigS1_Nature_b_allDEG FigureS1 panel a
+   data: DEG_Bcell_IntraPos_vs_IntraNeg.csv, S1c_MZvsFo_x_BcellDEG.csv
+   reuse: exact (relabelled as panel c)
+
+d  Hard-gated true CD4 volcano
+   source panel: Figure_reannotate panel d
+   data: DEG_true_CD4_IntraPos_vs_IntraNeg.csv
+   reuse: exact (relabelled as panel d)
+
+e  Hard-gated true CD8 volcano
+   source panel: Figure_reannotate panel e
+   data: DEG_true_CD8_IntraPos_vs_IntraNeg.csv
+   reuse: exact (relabelled as panel e)
+
+f  Plasma-cell gene expression by IV, Aicda removed
+   source panel: Figure_QC_DEG_plasma panel f
+   data: plasma_gene_expr.csv
+   reuse: structural (drop Aicda)
+   exclusion: Aicda; n_genes_before = 6, n_genes_after = 5
+   reason: user request; Aicda is a flat zero in both compartments

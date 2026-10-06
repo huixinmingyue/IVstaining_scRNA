@@ -1,0 +1,11 @@
+Fig. 6 | Vascular-contact CNS immune cells rewire original outgoing signalling and myeloid programmes.
+
+a, Flow-cytometric gates used to separate parenchyma-associated (NEG, 58.3%) from vascular-contact (POS, 15.4%) CNS immune cells. Extra CD45 is the intravenous surface label; Intra CD45 is the intracellular stain. Gate percentages are the native cytometer statistics on the plot.
+b, UMAP of CNS immune cells split by POS and NEG, coloured by cell type (n = 15,792 POS; 31,184 NEG). All cells are plotted; point marks are rasterised at 600 dpi with vector axes.
+c, Cell-type proportions within each group.
+d, CellChat outgoing POS/NEG ratio for the ten pathways with the highest total outgoing strength (GALECTIN to CSF), computed from the original (not composition-matched) matrices. The x axis is log10-scaled; the vertical line marks a ratio of 1. Bars use the same POS/NEG colours as c (POS, ratio >= 1; NEG, ratio < 1).
+e, KEGG over-representation of macrophage POS-versus-NEG DEGs (padj < 0.001 and |log2 FC| >= 1 after removal of Rpl/Rps, mt and Gm genes), restricted to signalling-pathway terms. Over-representation was tested against all 218 KEGG terms; the ten most significant signalling terms are shown. BH-adjusted P values are from the full test. No macrophage signalling term reaches FDR < 0.05 (lowest FDR = 0.42), so panel e is exploratory.
+f, KEGG over-representation of microglia DEGs, plotted and filtered as in e. Black outlines mark the 3 displayed signalling terms that reach FDR < 0.05.
+g, Locked macrophage genes: log2 fold change (POS / NEG) in all cells.
+h, Locked microglia genes, plotted as in g.
+Source data are provided as a Source Data file.

@@ -1,0 +1,70 @@
+Figure 10 | figure contract (written before plotting)
+
+Core conclusion
+  Within the same MCAO brains, vascular-contact (MCAO_POS) microglia are
+  shifted out of homeostatic cluster 0 into proliferative cluster 3 and
+  inflammatory / phagocytic cluster 5 relative to parenchymal (MCAO_NEG)
+  microglia; cluster 5 carries interferon and lipid-handling programmes;
+  the transferred MCAO_POS fraction marks a restricted day-3 territory in
+  which Lgals3 and Mki67 rise while P2ry12 falls; and module scores locate
+  G2M in cluster 3 and IFN / SAMC / ICAM in cluster 5, with SAMC and ICAM
+  higher in POS cells of cluster 5.
+
+Figure archetype
+  asymmetric mixed-modality figure
+
+Target journal / output
+  Nature-family double column; PDF + SVG + PNG + TIFF
+
+Backend
+  R only (ggplot2 + patchwork + scattermore + cowplot;
+  svglite / cairo_pdf / ragg)
+
+Final size
+  183 x 214 mm
+
+Panel map
+  a  UMAP of all 63,654 sorted immune cells; clusters 0/3/5 in colour
+  b  Hexb, Siglech, P2ry12, Mki67 on the same embedding
+  c  cluster 0/3/5 composition per arm, both mice shown          HERO
+  d  nine state-defining markers across clusters 0, 3 and 5
+  e  volcano, cluster 5 versus cluster 0
+  f  transferred MCAO_POS fraction plus Lgals3, Mki67, P2ry12,
+     Prdx1 on the registered day-3 section
+  g  detection rate by POS dominance (split at 0.5)
+  h  Spearman rho against the continuous POS fraction            HERO
+  i  mean z-scored module scores by cluster x contact            HERO
+
+Evidence hierarchy
+  hero        c (composition), f (geography), h (continuous association),
+              i (module states)
+  validation  d, e, g
+  controls    a, b; P2ry12 and Prdx1 in f-h as internal negatives;
+              DAM-core/DAM-like remaining low in cluster 5
+
+Statistics needed
+  c  per-mouse percentages; no animal-level test (n = 2)
+  d  descriptive
+  e  stored Wilcoxon + Bonferroni table
+  g  Wilson 95% CI; two-sided Fisher; BH across 4 genes
+  h  Spearman + 2,000-resample bootstrap 95% CI; BH across 4 genes
+  i  descriptive means; n per tile in source data
+
+Source data needed
+  cell embeddings and markers; DEG table; spot-level transfer weights
+  and gene counts; module scores by cluster x contact; gene lists
+
+Image-integrity notes
+  Spatial maps are vector spots on a grey silhouette; the stored H&E
+  tile is not drawn. No scale bar (no calibrated pixel size).
+  No contrast or channel edit. All 63,654 cells and 2,573 spots are kept.
+
+Reviewer risk
+  1 Label transfer is degenerate (98.7% of weight on the two cluster-3
+    identities). The POS fraction, not six identity maps, is the readout.
+  2 POS fraction is transcriptional resemblance, not a physical stain
+    at a spot.
+  3 Spatial counts are not depth-normalised.
+  4 n = 2 mice per arm; spatial n is one section.
+  5 DAM core used three genes (Clec7a absent from the matrix).
+  6 Module heatmap is descriptive; it does not carry a within-tile test.

@@ -1,0 +1,3 @@
+"panel","comparison","n_POS","n_NEG","wilcox_p","test"
+"c","POS_B vs NEG_B (Bcell.spcd45 high vs low)",3513,3513,0,"two-sided Wilcoxon rank-sum"
+"f","POS_T vs NEG_T (CD4T.spcd45 high vs low)",3911,3911,1.9967232440324e-21,"two-sided Wilcoxon rank-sum"

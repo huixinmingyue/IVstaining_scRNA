@@ -1,0 +1,7 @@
+"set","n_used","genes"
+"DAM-like",8,"Clec7a, Itgax, Cst7, Trem2, Apoe, Lpl, Tyrobp, Axl"
+"DAM core",3,"Itgax, Cst7, Trem2 (Clec7a not detected)"
+"ICAM",10,"Lgals3, Plau, Srxn1, Ankrd33b, Gas2l3, Nes, Edn1, Fam129b, Vat1, Fmn1"
+"SAMC",9,"Spp1, Fabp5, Gpnmb, Lgals3, Lpl, Fth1, Cd63, Ctsb, Mmp12"
+"IFN",9,"Ifit1, Ifit2, Ifit3, Isg15, Irf7, Rsad2, Oasl1, Oasl2, Stat1"
+"G2M",8,"Mki67, Top2a, Birc5, Cdk1, Pcna, Tyms, Pclaf, Ube2c"

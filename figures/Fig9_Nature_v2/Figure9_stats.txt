@@ -1,0 +1,41 @@
+Figure 9 statistics
+Spots: 32,811 total; L1-L3 4,656; L4-L6 8,982; outside 19,173. None excluded.
+L1-L3 membership is the original lesion spot list. L4-L6 membership is
+spots inside the added rectangles. The two sets do not overlap and are not pooled.
+Panel c crop: 8,376 spots in the L1-L3 frame, 4,656 inside L1-L3.
+Panel d crop: 17,504 spots in the L4-L6 frame, 8,982 inside L4-L6.
+Panel e: two-sided Wilcoxon signed-rank of (EAE_POS - EAE_NEG) vs 0,
+Benjamini-Hochberg across the six cell-type x window tests.
+Panel a T-cell paired score tests (BH across three windows)
+  Outside r_rb -1.000 q < 1e-300
+  L1-L3   r_rb -1.000 q < 1e-300
+  L4-L6   r_rb -0.997 q < 1e-300
+Panel b microglia paired score tests (BH across three windows)
+  Outside r_rb +0.497 q < 1e-300
+  L1-L3   r_rb +0.470 q = 1e-160
+  L4-L6   r_rb +0.740 q < 1e-300
+  T cell    Outside r_rb -1.000 q < 1e-300
+  T cell    L1-L3   r_rb -1.000 q < 1e-300
+  T cell    L4-L6   r_rb -0.997 q < 1e-300
+  Microglia Outside r_rb +0.497 q < 1e-300
+  Microglia L1-L3   r_rb +0.470 q = 1e-160
+  Microglia L4-L6   r_rb +0.740 q < 1e-300
+Panel e rank-sum, each window set vs outside, BH across the four tests.
+Positive r_rb means the window set has the higher (EAE_POS - EAE_NEG) difference.
+  T cell    L1-L3 vs outside r_rb -0.241 q = 3e-143
+  T cell    L4-L6 vs outside r_rb +0.162 q = 3e-106
+  Microglia L1-L3 vs outside r_rb -0.083 q = 1e-18
+  Microglia L4-L6 vs outside r_rb +0.237 q = 1e-224
+Panel g all-spots Fisher OR 5.8 (2.7-14.8) P = 5e-09
+Panel g L1-L3 Fisher OR Inf (0.1-Inf) P = 1 (EAE_NEG n = 3)
+Panel g L4-L6 Fisher OR 1.9 (0.8-5.4) P = 0.138
+Panel h vessel-distance Fisher OR 3.06 (2.51-3.75) P = 6e-37
+Panel h Spearman rho -0.077 P = 7e-45
+Panel i rank-sum, BH across the three scopes. Positive r_rb means MgIV is farther.
+  All spots q = 6e-10 r_rb -0.151
+  L1-L3 q = 8e-01 r_rb +0.111 (MgIVC n = 3)
+  L4-L6 q = 4e-02 r_rb -0.098
+Positive r_rb in panel i means MgIV is farther from the vessel mask than MgIVC.
+Figure size: 183.0 x 246.6 mm
+One EAE section. n is spatial spots, not biological replicates.
+H&E crops are unmodified. Distances are low-resolution image pixels.

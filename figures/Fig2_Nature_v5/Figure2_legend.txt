@@ -1,0 +1,30 @@
+Fig. 2 | Intravascular-enriched B-cell subcluster 1 is MZ-like
+
+a, UMAP of reclustering B cells (n = 5,975), split by intravascular CD45
+labelling, with subcluster composition in each compartment (Fig. 1e style).
+IV- (extravascular), n = 2,859; IV+ (intravascular), n = 3,116. Colour, Seurat
+subcluster. Cluster 1 rises from 13.1% of IV- B cells to 27.8% of IV+ B cells;
+cluster 0 falls from 79.6% to 65.2%; cluster 2 is unchanged (7.2% vs 7.0%).
+Percentages are of B cells recovered in that compartment. Every recovered B
+cell is plotted. No error bars: each compartment is one pooled sample.
+
+b, Feature plots and cluster violins for Cr2 and Fcer2a on the same cells.
+Cr2 is highest in cluster 1 (two-sided Wilcoxon vs the other clusters,
+P = 3.4 x 10^-295). Fcer2a is highest in cluster 0 (P = 6.9 x 10^-83).
+Boxes show the median and interquartile range.
+
+c, S1a MZ intersect Intra genes (MZ-up n = 18, Fo-up n = 2) scored on ImmGen
+splenic B-cell subsets (T1, T2, T3, Fo, MZ, Mem, GC-CB, GC-CC). Heatmap,
+row-wise z-score; bars, mean-z Delta (MZ-up minus Fo-up). The MZ column is
+the visual peak (Delta = +1.82). With only two Fo-up genes, Holm-adjusted
+Wilcoxon P values are not significant and are not printed on the panel.
+
+d, ImmGen module scores (top 30 genes per subset with |log2FC| >= 1 versus Fo)
+on the same 5,975 cells, split by subcluster and IV compartment. MZ scores are
+highest in cluster 1 (cluster 1 minus cluster 0, +0.115) and higher in IV+ than
+IV- cells (Delta = +0.029, Holm-adjusted P = 2.2 x 10^-62). Violins show the
+full cell distribution; boxes show the median and interquartile range.
+
+Cells are the observation unit. Each compartment is one pooled sample, so the
+P values in b and d describe within-experiment cell-to-cell differences, not
+biological-replicate inference. Source data are provided as a Source Data file.

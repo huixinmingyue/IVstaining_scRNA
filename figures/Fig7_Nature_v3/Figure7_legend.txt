@@ -1,0 +1,12 @@
+Fig. 7 | Vessel-contacting microglia acquire an IFN-γ / IL-17-chemokine programme in EAE.
+
+a, UMAP of microglia from EAE spinal cord, split by vessel-contact status (POS, n = 732; NEG, n = 1,075) and coloured by transcriptional cluster. Cluster indices mark cluster medoids. All cells are plotted.
+b, Cluster composition of each group; segments below 5% are unlabelled.
+c, KEGG gene-set enrichment of POS versus NEG microglia. Dot size, gene-set size; fill, -log10(P); black outline, Benjamini-Hochberg FDR < 0.05 (1 of 5 terms).
+d, Mean AddModuleScore (± s.e.m.) for IFN-γ (Stat1, Ifngr1, Irf1, Cxcl9, Cxcl10, Gbp2, Isg15), IL-17 receptor (Il17ra, Il17rc, Traf3ip2) and IL-17 effector (Cxcl1, Cxcl2, Csf2, Il6, Lcn2) programmes, computed on all cells. The cell-filtered (Kept) series is omitted.
+e, Row Z-scored mean expression of leading-edge genes from the three highest-NES signalling pathways, by cluster (C0-C3) and group.
+f, Monocle pseudotime trajectory coloured by pseudotime and by cluster.
+g, Cxcl10 and Id2 expression along pseudotime (LOESS fit, 95% confidence band).
+h, Representative immunofluorescence of the vessel-contact niche (DAPI, laminin and Cxcl10) with boxed regions enlarged below.
+
+Source data are provided as a Source Data file.

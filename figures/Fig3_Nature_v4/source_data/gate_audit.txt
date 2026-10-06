@@ -1,0 +1,38 @@
+Hard-gate audit (panel a)
+=========================
+Verdict: KEEP. The RNA counts > 0 gate is a conservative, internally
+consistent definition of the mixed CD4_T object. It is applied unchanged
+to panels b-c (UMAP by IV and composition) and is the x-axis of d-g and i.
+
+Priority (mutually exclusive):
+  doublet (cluster 2) > NKT (Klrb1c+) > DP (Cd4 and Cd8a/Cd8b1) >
+  true CD4 (Cd4+ Cd8a- Cd8b1- Klrb1c-) >
+  true CD8 (Cd8a+ or Cd8b1+, Cd4- Klrb1c-) > unassigned.
+
+Why this is reasonable
+- NKT before CD4/CD8 is required because NK1.1+ NKT cells can be CD4+ or DN.
+- True CD4 requires both Cd8a and Cd8b1 to be undetected. That matches the
+  Fig. 1 rule that Cd8b1 (not Cd8a alone) decides CD8, while still keeping
+  Cd8a+ cells out of the CD4 set.
+- Cluster 2 is a T-B doublet (Ms4a1 63%); it is not a T subset.
+- Unassigned cells are 78% Cd3e+ with no lineage RNA: dropout, not a fifth
+  lineage. They stay unassigned rather than being forced into CD4/CD8.
+
+Limits (stated in the legend)
+- Cd4 RNA is sparse, so true CD4 (n = 1,185 / 6,098) is a lower bound.
+- Detection is RNA-only; protein was CD45-TotalSeqB and was not used.
+- One pooled sample per IV compartment.
+
+Panel h is not a cell classifier
+- Rows are true-CD4 Intra DEGs; columns are ImmGen bulk spleen T/NK
+  subsets (GSE109125). Colour is gene-wise z of log1p bulk counts.
+- IV- up genes peak in naive CD4 / Treg; IV+ up genes peak in NKT / NK.
+- Winning identity of a gene = the column of maximum z. Query cells are
+  not assigned to ImmGen subsets.
+
+Panel i tests those ImmGen identities on the gated cells
+- Fig. 2d method: AddModuleScore of the top 30 ImmGen genes with
+  |log2FC| >= 1 (Ig/ribo/mt/Gm removed).
+- Naive CD4 / Naive CD8: CD8naive vs CD4naive axis.
+- NKT: NKT vs naive CD4. NK: mature NK vs naive CD4.
+- Scores are plotted by the panel-a classes, dodged by IV.

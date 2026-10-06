@@ -1,0 +1,30 @@
+Core conclusion:
+  In vivo oligo-CD45 labelling stratifies splenic B cells: subtype
+  composition tracks the labelling gradient, the high versus low tails
+  differ in niche occupancy, and highly labelled marginal-zone B cells
+  differ transcriptionally from weakly labelled ones.
+
+Figure archetype: asymmetric mixed-modality (schematic + quantitative grid)
+Target journal/output: Nature double column
+Backend: R (ggplot2 / patchwork / ggrepel / svglite / cairo_pdf / ragg)
+Final size: 183 x 258 mm
+Panel map:
+  a  Delivery and CITE-seq capture schematic
+  b  UMAP of B-cell subtypes after cluster 4 removal (n = 5,740)
+  c  Oligo-CD45 copies by subtype (Kruskal-Wallis)
+  d  Subtype share along the continuous labelling gradient (Spearman)
+  e  Same compartment split at >= 6 vs <= 1 copies
+  f  Composition of those two tails
+  g  MZ B differential expression at the same thresholds
+Evidence hierarchy:
+  hero: a (experimental scheme) then d (gradient)
+  support: b, c (identity and labelling by subtype)
+  validation: e, f (discrete tails)
+  mechanism: g (MZ transcriptional shift)
+Statistics needed: Kruskal-Wallis; Spearman rho per subtype; filtered
+  DEG scatter with BH-adjusted P
+Source data: Fig. 3 v2 extracts (a-d) and SI split-UMAP extracts (e-g)
+Image-integrity notes: panel a is an embedded raster schematic (~303 dpi)
+Reviewer risk: cluster 4 removed; immature/pre-B n = 37; g export is
+  pre-filtered to |log2FC| >= 0.25; Cd274 is added from a Wilcoxon row
+  because it is absent from that export; single pooled preparation

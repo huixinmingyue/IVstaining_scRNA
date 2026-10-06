@@ -1,0 +1,9 @@
+Fig. S8 | Pseudotime states and gene programmes of EAE microglia
+
+a,b, Monocle DDRTree of EAE microglia (n = 1,807) coloured by State (a) or vascular-contact group (b). CNS_IV n = 732; CNS_IVC n = 1,075. Grey lines, minimum spanning tree; numbered disc, branch point. State 2 is almost entirely CNS_IV (164 versus 1).
+
+c, Violin plots of the indicated genes by Seurat cluster (0–3) and vessel-contact status. EAE_POS = CNS_IV; EAE_NEG = CNS_IVC. White points, medians. Stars mark two-sided Wilcoxon rank-sum tests within each gene x cluster, Benjamini–Hochberg-adjusted across 24 tests (*q < 0.05, **q < 0.01, ***q < 0.001, ****q < 0.0001; 9 of 24 tests q < 0.05). Cluster 3 EAE_POS n = 6.
+
+d, Pseudotime-ordered gene-programme heatmap for 50 genes ranked by peak bin. Columns are eight equal-width relative-pseudotime bins; colour is the z-scored bin-mean log-normalized expression. Left sidebar: homeostatic, inflammatory and proliferative programmes.
+
+Statistics. Trajectories and violins use the same 1,807 microglia (no display downsample). Heatmap tiles are bin means, not single-cell values. Source data are provided as a Source Data file.

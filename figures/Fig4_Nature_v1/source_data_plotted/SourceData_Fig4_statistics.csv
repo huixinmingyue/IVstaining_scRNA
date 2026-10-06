@@ -1,0 +1,6 @@
+"panel","lineage","n_bins","median_low","median_high","median_paired_delta","ci_low","ci_high","p_value","test"
+"a","Follicular B cells (cluster 1, Bcell.spcd452)",4681,0.111519931520646,0.319137147464897,0.204189785056678,0.200128972976809,0.208262995299845,0,"two-sided Wilcoxon signed-rank (paired by spatial bin)"
+"b","Cluster 5 B cells (Bcell.spcd45)",3513,0.168634661604768,0.265598225056423,0.096174990934433,0.0926203948996006,0.0996485527687116,0,"two-sided Wilcoxon signed-rank (paired by spatial bin)"
+"c","Plasma cells (cluster 9, Plasma.spcd452)",1114,0.157389588850131,0.255420291469203,0.095650511209219,0.0912892298715105,0.0999887711890556,6.15132103221419e-162,"two-sided Wilcoxon signed-rank (paired by spatial bin)"
+"d","CD4 T cells (cluster 8, CD4T.spcd45)",1920,0.226216822341331,0.198192623193983,-0.0284297052017735,-0.0330303190889923,-0.0237782610462237,9.61316985927923e-32,"two-sided Wilcoxon signed-rank (paired by spatial bin)"
+"e","Cluster 4 CD4 T cells (CD4T.spcd45)",3911,0.217433821243659,0.198485165452639,-0.0149637224750885,-0.0185987917409097,-0.011303479571523,1.54149676616002e-15,"two-sided Wilcoxon signed-rank (paired by spatial bin)"

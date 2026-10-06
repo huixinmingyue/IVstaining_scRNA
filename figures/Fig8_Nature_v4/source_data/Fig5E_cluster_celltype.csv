@@ -1,0 +1,10 @@
+cluster,celltype,marker_evidence
+0,Neurons,"Nrgn, Camk2n1, Uchl1 (shared with 1; brain_Heatmap_8um9)"
+1,Neurons,"Nrgn, Camk2n1, Uchl1, Camk2a"
+2,Hippocampal neurons,"Ddn, Hpca"
+3,Oligodendrocytes,"Plp1, Cldn11, Mbp"
+4,Purkinje cells,"Pcp2, Car8, Pvalb, Itpr1, Calb1, Rgs8"
+5,Granule cells,"Gabra6, Cbln1, Cbln3, Neurod1, Snap25"
+6,Meninges,"Ptgds, Apod, Igf2, Cd74"
+7,Vascular-associated,"Pltp"
+8,Plasma cells,"Igkc, Igha"

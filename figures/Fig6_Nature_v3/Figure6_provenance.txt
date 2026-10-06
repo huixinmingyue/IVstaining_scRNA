@@ -1,0 +1,9 @@
+Figure 6 | new folder Fig6_Nature_v3 (does not overwrite Fig6_Nature_v1 or Fig6_Nature_v2).
+Reuse level: structural adaptation of Fig6_Nature_v2; c and d share one row as matched horizontal bars; g/h All-cells series only.
+Panel a: FACS TIFF crop geometry unchanged from the prior Fig. 6 build.
+Panel b: all cells from the UMAP table; scattermore rasterisation of marks only.
+Panel c: same observations as the source proportion table; horizontal dodged POS/NEG bars.
+Panel d: original POS/NEG outgoing ratios for GALECTIN through CSF; composition-matched series omitted by request; POS/NEG fill encodes ratio direction.
+Panels e/f: cached KEGG ORA; signalling-name display filter after testing (previous Fig. 6 f/h).
+Panels g/h: locked-gene table restricted to Mac and Mg (T and B omitted by request); All-cells log2 FC only (cell-filtered series omitted by request).
+Backend: R exclusive.

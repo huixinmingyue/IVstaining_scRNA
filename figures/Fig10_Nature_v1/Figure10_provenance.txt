@@ -1,0 +1,40 @@
+Figure 10 | provenance
+
+New folder. No earlier figure, script or source file was modified or
+overwritten. Parent packages were read only.
+
+Backend: R only (ggplot2 + patchwork + cowplot + scattermore + ggrepel;
+  svglite / cairo_pdf / ragg).
+Reuse level: structural adaptation of the MCAO Figure 9 package, plus
+  style-matched rebuild of the cluster x contact module heatmap.
+
+Panel mapping
+  previous a  UMAP                         -> a
+  previous b  marker feature plots         -> b
+  previous c  composition                  -> c
+  previous d  marker dots                  -> d
+  previous e  volcano                      -> e
+  previous f  H&E, POS fraction, weights,
+              split histogram              -> dropped, except the POS-fraction
+                                              map, which moves into f
+  previous g  four gene maps               -> f, with the POS-fraction map
+                                              placed first
+  previous h  detection                    -> g
+  previous i  Spearman                     -> h
+  reanalysis R2 d  module heatmap          -> i
+
+Changes relative to the previous MCAO Figure 9
+  The H&E reference tile, the six-identity weight bars and the POS-fraction
+  histogram are not drawn. The POS-dominant split at 0.5 remains the rule
+  for g and is stated on the POS-fraction map and in the legend. Weight
+  degeneracy (98.7% on the two cluster-3 identities) is kept in the legend
+  and statistics file rather than as a dedicated panel.
+  Panel i rebuilds the module heatmap from the stored cluster x contact
+  means. Axis labels use NEG/POS to match the compact tiles; the legend
+  maps them to MCAO_NEG/MCAO_POS. Tile numbers use the 5.2 pt floor.
+  DAM core is labelled with the three genes actually scored (Clec7a absent).
+  Panels g, h and i share one row.
+
+Data completeness
+  No cell, spot, gene or replicate was dropped for plotting. a-b, 63,654
+  cells; c-d and i, 33,867 microglia; e, 4,971 genes; f-h, 2,573 spots.

@@ -1,0 +1,50 @@
+Core conclusion:
+  Stroke immune cells separate by lineage markers and microglia gene-set
+  scores. NEG (samples n1 and n2) and POS (samples p1 and p2) differ in
+  cluster composition. Cluster 5 versus cluster 0 is enriched for innate
+  signalling programmes.
+
+Figure archetype: quantitative grid
+Target journal/output: Nature-family double column, supplementary
+Backend: R exclusive (ggplot2 / patchwork / svglite / cairo_pdf / ragg)
+Final size: 183 mm wide, height at most 247 mm
+
+Panel map:
+  a  Lineage marker feature plots on the Stroke UMAP
+  b  Four microglia gene-set scores on the same UMAP, blue scale
+  c  UMAP split by NEG versus POS; points coloured by cluster
+  d  Within-group cluster proportions, NEG versus POS
+  e  KEGG signalling terms, cluster 5 versus cluster 0
+  f  WikiPathways terms, cluster 5 versus cluster 0
+
+Label mapping (display only; underlying sample merge is unchanged):
+  group n (n1+n2) -> NEG
+  group p (p1+p2) -> POS
+  Order stays NEG then POS.
+
+Evidence hierarchy:
+  hero: c, d (NEG versus POS composition)
+  localisation: a, b
+  mechanism support: e, f
+
+Statistics needed:
+  Panel d shows within-group proportions and cell counts, not a tested contrast.
+  Panels e and f report NES, set size, and -log10(FDR q) from the supplied GSEA tables.
+  Exact values stay in the legend and source tables. No asterisk code.
+
+Source data:
+  Spot-level lineage features, module scores, UMAP coordinates with sample
+  identity, cluster proportions, KEGG and WikiPathways tables.
+
+Image-integrity notes:
+  No microscopy. UMAPs use the supplied coordinates without contrast adjustment.
+
+Reviewer risk:
+  NEG and POS are merged sample pairs (n1+n2, p1+p2), not biological
+  replicates plotted as separate points. Proportions in d are compositional.
+  Cluster colours are the inherited categorical palette.
+
+Reuse:
+  Structural adaptation of the previous supplementary figure.
+  Only the c/d display labels change from n/p to NEG/POS.
+  All cells in panel c are drawn. The previous display subsample is not used.

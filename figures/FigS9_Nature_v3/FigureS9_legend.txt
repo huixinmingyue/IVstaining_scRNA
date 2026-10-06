@@ -1,0 +1,8 @@
+Fig. S9 | Spatial cluster markers and POS versus NEG immune-lineage mapping in the EAE Visium section.
+
+a, Heatmap of top marker genes per Visium cluster (0-8); expression scaled and clipped to [-2.5, 2.5].
+b, Spatial maps of Mki67, Lgals3, Cxcl10 and Hexb on Visium H&E (image alpha = 0.9). The Cxcl10 colour scale is fixed at 0-2.5; values above 2.5 are clipped.
+c-g, Prediction-score maps for DC (c), B cells (d), Neu1 (e), plasma cells (f) and macrophages (g); left, POS; right, NEG; image alpha = 0.9.
+h, Prediction scores for the same lineages. Top, all immune spots (n = 32,811). Bottom, spots inside perivascular windows, split as L1–L3 (n = 4,655) versus L4–L6 (n = 8,982). Boxes show median and IQR; whiskers 1.5×IQR. Two-sided Wilcoxon rank-sum tests of POS versus NEG within each set. Window sets are tested separately because L4–L6 need not repeat the L1–L3 direction.
+
+Source data are provided as a Source Data file.

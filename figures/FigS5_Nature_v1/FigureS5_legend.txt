@@ -1,0 +1,24 @@
+Fig. S5 | Oligo-CD45 conjugate QC and Harmony B-cell annotation
+
+a, SDS-PAGE of oligo-CD45 conjugates. Top, protein stain; bottom,
+oligo fluorescence. Molecular-weight markers (kDa) are on the gel.
+Group 1: M1/42-Oligo, 30-F11-Oligo, unconjugated M1/42, unconjugated
+30-F11. Group 2: M1/42-Oligo, 30-F11-Oligo.
+
+b, UMAP of Harmony-integrated B cells (clustering resolution 0.2;
+n = 6,188). Direct labels mark Follicular B (Gpr183+; n = 2,564),
+Follicular B (n = 1,871), Marginal zone B (n = 721), Follicular B [3]
+(n = 547), Myeloid-contaminated (n = 448) and Immature / pre-B
+(n = 37).
+
+c, Dot plot of B-lineage genes (Cr2 to Rag1) and myeloid genes
+(Slpi, Axl, Mafb, Hpgd, Fcna) in the six clusters. Colour is the
+per-gene z-scored mean of log-normalised RNA (clipped at +/- 2.5);
+dot size is the percent of cells with RNA > 0.
+
+d, Predicted probability from a binomial GLM of each Bcelltype versus
+the rest as a function of log1p(Proteinfeatures). Myeloid-contaminated
+probability rises with Proteinfeatures; Follicular B (Gpr183+) falls.
+
+Cells are the observation unit. Source data are provided as a Source
+Data file.

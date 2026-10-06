@@ -1,0 +1,8 @@
+Figure 8 statistics / integrity (Fig8_Nature_v4)
+Immune Visium spots: 32811.
+Windows: L1-L3 n = 4655; L4-L6 n = 8982.
+Panel a: vector schematic (not the v3 raster plate).
+Panel e: L1-L6 cluster zooms omitted.
+Panel h: microglia window crops + Wilcoxon as in g.
+Image integrity: IF author rasters; H&E unmodified; no contrast stretch.
+Figure size: 183 x 470 mm

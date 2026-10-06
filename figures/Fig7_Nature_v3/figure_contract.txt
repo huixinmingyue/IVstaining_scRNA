@@ -1,0 +1,37 @@
+Core conclusion:
+  Vessel-contacting (POS) EAE microglia occupy inflammatory clusters 1–2,
+  carry an IFN-γ / IL-17-axis programme already in all cells, and run an
+  IL-17 / NOD-like / chemokine leading-edge that is ordered along
+  pseudotime and visible in situ.
+
+Figure archetype: asymmetric mixed-modality
+Target journal/output: Nature double column
+Backend: R (ggplot2 / patchwork / svglite / cairo_pdf / ragg)
+Final size: 183 x 210 mm
+Panel map:
+  a  UMAP of EAE microglia split by POS / NEG, clusters 0–3
+  b  Cluster composition within each group
+  c  KEGG GSEA, POS versus NEG (signalling terms)
+  d  IFN-γ, IL-17 receptor and IL-17 effector module scores,
+     All cells only
+  e  Leading-edge heatmap, IL-17 / NOD-like / Chemokine
+  f  Pseudotime trajectory maps (pseudotime and cluster)
+  g  Cxcl10 and Id2 along pseudotime
+  h  Immunofluorescence of the vessel-contact niche
+Evidence hierarchy:
+  hero: e (leading-edge genes by cluster x group)
+  support: a, b (where POS cells sit)
+  support: c (pathway NES)
+  support: d (IFN-γ vs IL-17 axes in all cells)
+  support: f, g (trajectory organisation and gene dynamics)
+  validation: h (in situ)
+Statistics needed:
+  n cells in a/b; GSEA NES and BH FDR in c; mean module score ± s.e.m.
+  in d (All cells); row Z in e; LOESS 95% CI in g
+Source data: UMAP, composition, KEGG GSEA, module scores, heatmap Z,
+  trajectory, IF plate
+Image-integrity notes: panel h is the supplied IF raster at native
+  aspect; no contrast change.
+Reviewer risk:
+  cluster 3 POS n = 6 is descriptive; only 1/5 KEGG terms reach FDR
+  < 0.05; IF plate has no calibrated scale bar in the source image

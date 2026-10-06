@@ -1,0 +1,9 @@
+Figure S12 | Nature SI — native ggplot Visium maps
+a: Section 1 prediction maps; spots = 2383; limits 0-0.5
+b: Section 1 top-100 POS/NEG gene maps on H&E + Wilcoxon boxplots
+c: Section 2 prediction maps; spots = 2635; same scale as a
+d: Section 2 top-100 gene maps + Wilcoxon
+Wilcoxon b: Lgals3=1.84e-33; Prdx1=0.733; Mki67=4.08e-08
+Wilcoxon d: Lgals3=2.16e-34; Prdx1=0.409; Mki67=0.729
+Size: 183 x 245 mm; font: Arial 6.5 pt
+Deliverables: SVG + PNG + PDF + TIFF; no TIFF plate embeds

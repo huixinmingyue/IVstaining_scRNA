@@ -1,0 +1,9 @@
+Fig. S11 | Spatial mapping of MCAO microglia subtypes and effector-gene enrichment.
+
+a, Prediction scores for microglia clusters 5 (inflammatory), 3 (proliferative) and 0 (homeostatic), split into NEG (n-) and POS (p-) features, on one representative MCAO Visium section (3,101 spots). Colour scales are 0–2 for cluster 5 and 0–0.5 for clusters 3 and 0. Scores above the upper limit are shown at the top colour.
+
+b, Expression of Lgals3 and Prdx1 on the 100 spots with the highest cluster-5 POS or NEG score, and of Mki67 and Cxcl10 on the 100 spots with the highest cluster-3 POS or NEG score. Points are overlaid on the section H&E after a global fade (weight 0.9 toward white). The shared colour scale is 0–2; expression above 2 is shown at the top colour. Uncapped values are in c.
+
+c, The same top-100 spot sets (n = 100 spots per group). Centre line, median; box, interquartile range; whiskers, 1.5× the interquartile range; points, spots. Two-sided Wilcoxon rank-sum tests (exact = FALSE), uncorrected across the four genes. ****P < 1×10⁻⁴; ns, not significant. Exact P values: Lgals3, 5.22×10⁻²⁸; Prdx1, 0.216; Mki67, 3.00×10⁻¹⁷; Cxcl10, 6.99×10⁻⁸. The spots come from one section, so these P values describe that spot contrast and are not biological-replicate tests.
+
+Source data are provided in this folder.

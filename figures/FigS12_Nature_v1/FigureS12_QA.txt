@@ -1,0 +1,15 @@
+Core conclusion: Two independent Visium sections recapitulate n-/p- microglia subtype maps and POS-spot enrichment of Lgals3.
+Archetype: image plate + quant
+Backend: R ggplot2/patchwork exclusive
+Final size: 183 x 245 mm
+Panel logic: a=section1 maps; b=section1 genes+quant; c=section2 maps; d=section2 genes+quant
+Colour: a and c share viridis, limits 0-0.5, hard-clip, matched spot size
+Statistics: n=100 spots/group; two-sided Wilcoxon; honest ns retained
+Wilcoxon b: Lgals3=1.84e-33; Prdx1=0.733; Mki67=4.08e-08
+Wilcoxon d: Lgals3=2.16e-34; Prdx1=0.409; Mki67=0.729
+n_before section1=2383 section2=2635; n_after gene maps=100/group
+H&E: global alpha 0.90; no local contrast
+Display labels NEG/POS replace n-/p- titles; tests use the same groups
+Automated checks: 18 pass, 2 warn, 0 fail (R delimiter; set.seed with boxplot IQR).
+SVG font-size 5.20-8.00 pt. cairo_pdf Tf = 1 pt is the known CTM false positive; visual QA used the PNG at 183 x 245 mm.
+Wilcoxon P values match the ancestor table.

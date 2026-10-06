@@ -1,0 +1,11 @@
+Fig. S11 provenance
+
+Reuse level: exact.
+Source plate: FigureS8.svg, with its PDF, PNG, script, legend and spot tables, copied into source_figures/ and source_data/.
+Plotted inputs written by scripts/00_extract_spatial.R:
+- FigS11_coords.csv (3,101 spots; x = imagecol, y = imagerow)
+- FigS11_predictions.csv (n-0, n-3, n-5, p-0, p-3, p-5, max)
+- FigS11_expression.csv (Lgals3, Prdx1, Mki67, Cxcl10)
+H&E: source_data/he_immune5.rds
+Panel c tables: source_data/FigS8C_Lgals3.csv, FigS8C_Prdx1.csv, FigS8C_Mki67.csv, FigS8C_Cxcl10.csv
+Outputs: FigureS11.svg, FigureS11.pdf, FigureS11.png, FigureS11.tiff

@@ -1,0 +1,24 @@
+Core conclusion:
+  Intravascular antibody labelling separates intravascular from extravascular
+  splenic immune cells, and scRNA-seq of the two compartments shows a
+  composition shift on RNA-rule CD4 T / CD8 T identities (Cd8b1, not Cd8a).
+
+Figure archetype: asymmetric mixed-modality figure (image plate + quantitative)
+Target journal/output: Nature double column
+Backend: R (ggplot2 / patchwork / svglite / cairo_pdf / ragg)
+Final size: 183 x 230 mm
+Panel map:
+  a  lymphoid spatial partition (IF plate; unchanged)
+  b  myeloid/vascular border (IF plate; unchanged)
+  c  flow gating + sort-to-scRNA-seq workflow (unchanged)
+  d  UMAP of all 15,271 cells with RNA-rule CD4/CD8 identities
+  e  compartment composition on the same identities
+Evidence hierarchy:
+  hero evidence: d+e (corrected T identities and composition shift)
+  validation evidence: Fig. S1a marker dot plot
+  controls/robustness: a-c establish the physical compartments
+Statistics needed: percentages of one pooled sample per compartment; no error bars
+Source data needed: cell_identities, Fig1E_proportions, plotted CSVs
+Image-integrity notes: a-c rasters embedded unchanged; no crop/contrast edit
+Reviewer risk: RNA-only CD4/CD8 (no extra/intra CITE protein); rare classes
+  lumped (B contaminant n=12, NK-like n=2, unresolved n=112); original NK not split

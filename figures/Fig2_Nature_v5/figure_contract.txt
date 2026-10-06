@@ -1,0 +1,25 @@
+Core conclusion:
+  Intravascular-enriched B-cell subcluster 1 is MZ-like: it is Cr2-high /
+  Fcer2a-low, the S1a MZ intersect Intra set maps to ImmGen MZ versus Fo,
+  and MZ module scores are highest in subcluster 1 and higher in IV+ cells.
+
+Figure archetype: quantitative grid (panel c S1a mapping as hero)
+Target journal/output: Nature double column
+Backend: R (ggplot2 / patchwork / svglite / cairo_pdf / ragg)
+Final size: 183 x 178 mm
+Panel map:
+  a  B-cell UMAP split by IV plus subcluster composition (Fig. 1e style)
+  b  Cr2 and Fcer2a feature + violin
+  c  S1a MZ intersect Intra genes vs ImmGen B subsets
+  d  ImmGen MZ/Fo/Mem/GC module scores
+Evidence hierarchy:
+  hero evidence: c (independent MZ intersect Intra set peaks at ImmGen MZ)
+  supporting: a (shared space + cluster 1 frequency 13.1% to 27.8%)
+  supporting: b (canonical MZ/Fo markers)
+  validation: d (module scores on the same 5,975 cells)
+Statistics needed: composition is one pooled sample per compartment (no error
+  bars); Wilcoxon on genes (c) and cells (b, d)
+Source data needed: Fig2ab_cells, composition percentages, P0-2, P0-4
+Image-integrity notes: no micrographs; all panels drawn from tables
+Reviewer risk: one pooled sample per compartment; S1a Fo-up n = 2 so Holm
+  tests are underpowered

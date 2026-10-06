@@ -1,0 +1,146 @@
+Figure 10 | statistics, sample sizes and integrity notes
+
+GROUP DEFINITIONS
+  MCAO_NEG  parenchymal immune cells, intravascular-stain negative (n1, n2)
+  MCAO_POS  vascular-contact immune cells, intravascular-stain positive (p1, p2)
+  All four samples are MCAO mice at 48 h after reperfusion, separated by
+  intravascular CD45 staining and flow sorting. This is NOT naive versus stroke.
+
+--------------------------------------------------------------------------
+PANEL a, b   embedding and marker feature plots
+  n definition          63,654 sorted immune cells
+  biological replicates 2 mice per sort arm (n1, n2 / p1, p2)
+  centre / spread       none; every cell is drawn
+  test                  none, descriptive
+  display               b caps each gene at its own 99th percentile; capped
+                        cells take the top colour
+  note                  all 63,654 cells are plotted; point marks are
+                        rasterised; no cell is subsampled
+
+--------------------------------------------------------------------------
+PANEL c      microglial state composition
+  n definition          33,867 microglia (MCAO_NEG 23,727; MCAO_POS 10,140)
+  biological replicates 2 mice per arm
+  centre statistic      bar = mean of the two per-mouse percentages
+  spread                both mice plotted as open circles; no interval
+  test                  NONE IS DRAWN (n = 2)
+  source data           source_data_plotted/SourceData_Fig10c_microglial_composition_per_mouse.csv
+
+  Per-mouse percentages (cluster 0 / 3 / 5):
+    n1  85.78 / 9.83 / 4.39   (11,858 microglia)
+    n2  86.22 / 9.32 / 4.47   (11,869)
+    p1  63.89 / 18.89 / 17.22 ( 5,087)
+    p2  64.24 / 18.50 / 17.26 ( 5,053)
+    arm means  MCAO_NEG 86.00 / 9.58 / 4.43   MCAO_POS 64.06 / 18.70 / 17.24
+
+  A cell-level chi-square would be pseudoreplication and is not drawn.
+
+--------------------------------------------------------------------------
+PANEL d      state-defining markers
+  n definition          26,901 cluster-0, 4,168 cluster-3 and 2,798 cluster-5
+                        microglia
+  centre statistic      circle area = % expressing; fill = mean expression
+                        z-scored across the three clusters
+  test                  none
+  source data           source_data_plotted/SourceData_Fig10d_marker_summary.csv
+
+--------------------------------------------------------------------------
+PANEL e      cluster 5 versus cluster 0
+  n definition          4,971 genes tested
+  test                  Wilcoxon rank-sum with Bonferroni adjustment, as stored
+  thresholds            adjusted P < 0.05 and |log2 fold change| > 1
+  result                552 genes up in cluster 5, 450 up in cluster 0
+  p-value display       209 genes underflow to exactly 0 and are drawn as open
+                        triangles at the smallest non-zero adjusted P in the table
+  source data           source_data_plotted/SourceData_Fig10e_DEG_cluster5_vs_cluster0.csv
+
+--------------------------------------------------------------------------
+PANEL f      MCAO_POS fraction and marker maps
+  n definition          2,573 spots from ONE day-3 Visium section
+  biological replicates ONE section
+  test                  none; f is geography plus the definition of the split
+  source data           source_data_plotted/SourceData_Fig10f_spot_level.csv
+                        source_data_plotted/SourceData_Fig10_reference_weight_composition.csv
+
+  Mean transferred weight (spots with non-zero score):
+    MCAO_NEG cluster 0   0.000000        0 of 2,573
+    MCAO_POS cluster 0   0.000694       85
+    MCAO_NEG cluster 3   0.733630    2,561
+    MCAO_POS cluster 3   0.253347    2,573
+    MCAO_NEG cluster 5   0.001400      162
+    MCAO_POS cluster 5   0.010929      456
+  Six weights sum to 1 at every spot. 98.7% of weight is on the two
+  cluster-3 identities.
+
+  Split at POS fraction 0.5: 2,025 NEG-dominant and 548 POS-dominant spots.
+
+--------------------------------------------------------------------------
+PANEL g      detection by POS dominance
+  n definition          2,025 NEG-dominant and 548 POS-dominant spots
+  centre statistic      percentage of spots with at least one count
+  spread                Wilson 95% score interval
+  test                  two-sided Fisher exact test
+  correction            Benjamini-Hochberg across the 4 genes
+  source data           source_data_plotted/SourceData_Fig10g_detection_by_dominance.csv
+
+    gene    NEG-dominant      POS-dominant      odds ratio (95% CI)   q
+    Lgals3  214/2025 10.57%   381/548 69.53%    19.28 (15.23-24.47)   1.4e-162
+    Mki67   136/2025  6.72%   145/548 26.46%     4.99 ( 3.83- 6.52)   6.8e-33
+    P2ry12  777/2025 38.37%    92/548 16.79%     0.32 ( 0.25- 0.41)   6.6e-23
+    Prdx1  1977/2025 97.63%   475/548 86.68%     0.16 ( 0.11- 0.23)   1.1e-21
+
+--------------------------------------------------------------------------
+PANEL h      association with the continuous MCAO_POS fraction
+  n definition          all 2,573 spots
+  centre statistic      two-sided Spearman rho on raw counts
+  spread                2,000-resample bootstrap 95% percentile interval
+  correction            Benjamini-Hochberg across the 4 genes
+  source data           source_data_plotted/SourceData_Fig10h_spearman_and_ranksum.csv
+
+    gene    rho     bootstrap 95% CI      q          rank-sum q   r_rb
+    Lgals3  +0.564  +0.534 to +0.591      3.7e-215   5.1e-205     +0.628
+    Mki67   +0.310  +0.274 to +0.341      4.0e-58    5.1e-40      +0.200
+    P2ry12  -0.075  -0.110 to -0.039      1.8e-04    9.3e-22      -0.223
+    Prdx1   +0.007  -0.033 to +0.047      7.3e-01    8.7e-22      -0.267
+
+  Rank-sum q and rank-biserial r_rb compare POS-dominant versus NEG-dominant
+  raw counts and are not drawn on the panel.
+
+  Prdx1 has no monotonic association with the continuous fraction
+  (rho = +0.007, q = 0.73) yet is modestly lower in POS-dominant spots by
+  detection. It should not be described as tracking the territory.
+
+--------------------------------------------------------------------------
+PANEL i      modules by cluster and contact
+  n definition          all 33,867 microglia (same cells as c)
+  centre statistic      mean of per-cell z-scored module scores
+  spread                none on the heatmap; n and median per tile in source data
+  test                  none drawn (descriptive)
+  source data           source_data_plotted/SourceData_Fig10i_module_cluster_by_contact.csv
+                        source_data_plotted/SourceData_Fig10i_module_genes.csv
+
+  n per tile (cluster x contact):
+    cluster 0  NEG 20,405  POS 6,496
+    cluster 3  NEG  2,272  POS 1,896
+    cluster 5  NEG  1,050  POS 1,748
+
+  DAM core was scored on Itgax, Cst7 and Trem2; Clec7a is absent from the
+  expression matrix (3 of 4 intended genes).
+
+--------------------------------------------------------------------------
+IMAGE INTEGRITY
+  Spatial maps in f are vector spots. The stored section raster is not drawn.
+  No brightness, contrast, gamma or channel edit. No scale bar (no calibrated
+  pixel size). All spots are retained.
+
+--------------------------------------------------------------------------
+NORMALISATION LIMITATION FOR f-h
+  Spatial values are raw counts; no per-spot total is stored, so they are not
+  depth-normalised. Lgals3 and Mki67 rise in POS-dominant spots, which a
+  global depth deficit cannot manufacture. P2ry12 and Prdx1 decreases remain
+  unresolved between biology and capture.
+
+--------------------------------------------------------------------------
+DATA COMPLETENESS
+  No row, cell, spot, gene or replicate was excluded. Counts: 63,654 cells
+  in a-b; 33,867 microglia in c, d and i; 4,971 genes in e; 2,573 spots in f-h.

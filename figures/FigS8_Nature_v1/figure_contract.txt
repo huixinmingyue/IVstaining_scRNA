@@ -1,0 +1,42 @@
+Core conclusion:
+  EAE microglia traverse a branched Monocle trajectory in which
+  vessel-contacting cells occupy States 1–2; cluster-wise POS versus NEG
+  expression and a pseudotime-ordered 50-gene heatmap show a shift from
+  homeostatic to inflammatory and proliferative programmes.
+
+Figure archetype: asymmetric mixed-modality (hero heatmap)
+Target journal/output: Nature-family SI; PDF/SVG/PNG/TIFF; 183 mm wide
+Backend: R exclusive (ggplot2 / patchwork)
+Final size: 183 x 418 mm
+fig_width_mm = 183
+
+Panel map:
+  a  Monocle DDRTree coloured by State
+  b  Monocle DDRTree coloured by CNS_IV / CNS_IVC
+  c  Violin plots of six genes by cluster and EAE_POS / EAE_NEG
+  d  Pseudotime-binned z-scored gene-programme heatmap (50 genes)
+
+Evidence hierarchy:
+  hero: d (gene programmes along pseudotime)
+  identity: a, b (State and vascular-contact)
+  support: c (cluster-wise POS vs NEG, Wilcoxon BH)
+
+Statistics needed:
+  n = 1,807 microglia (CNS_IV / EAE_POS n = 732; CNS_IVC / EAE_NEG n = 1,075)
+  State counts; MST plus one branch point
+  Violin: two-sided Wilcoxon rank-sum within gene x cluster; BH across 24 tests
+  Heatmap: 8 equal-width pseudotime bins; z-scored bin-mean log-normalized expression
+  Cluster 3 EAE_POS n = 6 (kept, reported)
+
+Source data needed:
+  traj_slim.rds, heatmap_slim.rds, Fig6f_violin.csv, Fig6f_wilcoxon_BH.csv
+
+Image-integrity notes:
+  Trajectory points are all 1,807 cells (no display downsample)
+  Heatmap tiles are bin means, not single-cell values
+  Panel c stars use the locked Fig6 v3 BH table
+
+Reviewer risk:
+  Cluster 3 EAE_POS n = 6
+  State 2 is almost entirely CNS_IV (164 vs 1)
+  Cxcl10 cluster-wise tests are often ns; late-pseudotime induction is in d

@@ -1,0 +1,29 @@
+Figure S7 v3 | provenance
+=========================
+
+Content origin
+  Revision of Fig. S7 v2: CellChat moved from panel g to panel c;
+  locked-gene panels now plot all-cell log2FC only. Source tables,
+  source figures and upstream scripts were copied into this folder.
+  Nothing outside this folder was overwritten. v1 and v2 are unchanged.
+
+Panel map
+  a    top marker heatmap
+  b    canonical lineage dot plot
+  c    CellChat interaction-number networks
+  d    T-cell KEGG signalling GSEA
+  e    B-cell KEGG signalling GSEA
+  f    T-cell locked genes, all cells
+  g    B-cell locked genes, all cells
+
+Reuse level
+  Exact reuse of v2 heatmap, dot plot, KEGG and CellChat geometry.
+  Locked-gene panels: same gene lists, all_log2FC only.
+
+Reproduce
+  Rscript scripts/make_figureS7.R
+  Rscript qa/preview.R
+
+Image integrity
+  Vector line art plus ggplot tile heatmap. No microscopy.
+  Cell-filtered series omitted from f/g by request.

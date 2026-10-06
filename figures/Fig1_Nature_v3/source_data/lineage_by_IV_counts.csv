@@ -1,0 +1,12 @@
+"","IntraNeg","IntraPos"
+"CD4 T",958,279
+"CD8 T",1427,1313
+"NKT-like",123,310
+"CD4/CD8 DP",126,53
+"T other",892,684
+"B-T doublet",353,315
+"B cell",2861,3121
+"cDC2",379,819
+"NK",258,780
+"Plasma cell",93,45
+"Neutrophil",49,33

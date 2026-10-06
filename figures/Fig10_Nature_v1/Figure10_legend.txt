@@ -1,0 +1,25 @@
+Fig. 10 | Vascular-contact microglia are shifted into proliferative and inflammatory states after MCAO; the transferred vascular-contact programme marks a restricted day-3 territory; G2M, IFN, SAMC and ICAM modules separate by cluster and contact.
+
+a, UMAP embedding of all 63,654 sorted brain immune cells from MCAO mice at 48 h after reperfusion (2 mice per sort arm). The three microglial clusters analysed throughout the figure are coloured (cluster 0, blue; cluster 3, green; cluster 5, red) and the remaining clusters are grey; numbers mark the median position of each cluster. All cells are drawn; point marks are rasterised.
+
+b, Log-normalised expression of Hexb, Siglech, P2ry12 and Mki67 on the embedding of a, each on its own scale running from 0 to the 99th percentile of that gene, with values above the cap taking the top colour. Cells are drawn in ascending order of expression so that positive cells are not overdrawn.
+
+c, Microglial state composition of the two sort arms. Bars, mean of the two mice; open circles, the individual mice; n = 23,727 MCAO_NEG and 10,140 MCAO_POS microglia (33,867 in total). Coloured rules under the axis repeat the cluster colours of a. Because there are only 2 mice per arm no inferential test is drawn on this panel; the individual mouse values are in the source data.
+
+d, Fraction of cells with non-zero expression (circle area) and mean log-normalised expression z-scored across the three clusters (fill) for nine state-defining markers. n as in c.
+
+e, Differential expression between microglial cluster 5 and cluster 0 across all 4,971 tested genes (Wilcoxon rank-sum test with Bonferroni adjustment, as stored by the upstream analysis). Dashed lines, an absolute log2 fold change of 1 and an adjusted P of 0.05. 552 genes are higher in cluster 5 and 450 in cluster 0. Open triangles mark the 209 genes whose adjusted P underflows to zero in double precision; they are drawn at the smallest representable value of this table (adjusted P = 8.3 x 10^-303) and their true P values are smaller than plotted.
+
+f, Transferred MCAO_POS fraction at each of 2,573 spots on the day-3 Visium section (summed label-transfer weight of the three MCAO_POS microglial reference identities), followed by raw counts for Lgals3, Mki67, P2ry12 and Prdx1 at the same spots. Every gene map draws all spots in light grey to give the tissue outline and spots with at least one count over it in ascending order. Each gene uses its own scale capped at the 99th percentile of its detected spots. The POS-dominant split used in g is POS fraction ≥ 0.5 (2,025 NEG-dominant and 548 POS-dominant spots). The six reference identities sum to 1 at every spot; 98.7% of the transferred weight sits on the two cluster-3 identities, so the POS fraction rather than the six individual scores is the interpretable spatial readout.
+
+g, Percentage of spots with at least one count in the NEG-dominant and POS-dominant groups defined in f. Error bars, Wilson 95% score intervals. Labels, two-sided Fisher exact test with Benjamini-Hochberg correction across the four genes, and the odds ratio for detection in POS-dominant spots. Lgals3 19.28 (95% CI 15.23-24.47), Mki67 4.99 (3.83-6.52), P2ry12 0.32 (0.25-0.41), Prdx1 0.16 (0.11-0.23).
+
+h, Two-sided Spearman correlation between the raw counts of each gene and the continuous MCAO_POS fraction over all 2,573 spots. Error bars, 2,000-resample bootstrap 95% confidence intervals; labels, rho with the Benjamini-Hochberg adjusted P across the four genes. Lgals3 and Mki67 rise with the MCAO_POS fraction, P2ry12 declines weakly, and Prdx1 shows no monotonic association even though its detection rate is lower in POS-dominant spots (g).
+
+i, Mean z-scored module scores in all 33,867 microglia, split by cluster and sort arm. Fill, mean z; numbers, the same value. DAM-like = Clec7a, Itgax, Cst7, Trem2, Apoe, Lpl, Tyrobp, Axl. DAM core = Itgax, Cst7, Trem2 (Clec7a was not detected in the expression matrix). ICAM, SAMC, IFN and G2M gene lists are in the source data. Cluster 3 is G2M-high; cluster 5 is IFN-, SAMC- and ICAM-high, with SAMC and ICAM further elevated in MCAO_POS cells of cluster 5. The heatmap is descriptive.
+
+Abbreviations: MCAO_NEG, parenchymal immune cells (intravascular-stain negative, samples n1 and n2); MCAO_POS, vascular-contact immune cells (intravascular-stain positive, samples p1 and p2). Both arms come from MCAO mice at 48 h after reperfusion, separated by intravascular CD45 staining and flow sorting; they are not a naive-versus-stroke comparison.
+
+n for a-e and i is cells from 2 mice per arm. n for f-h is spatial spots from ONE section, not biological replicates. Prediction scores describe transcriptional resemblance to a sorted reference population; they are not a measurement of vascular contact at a spot. The spatial counts in f-h are not depth-normalised because no per-spot total is stored (see the statistics file).
+
+Source data are provided as a Source Data file.

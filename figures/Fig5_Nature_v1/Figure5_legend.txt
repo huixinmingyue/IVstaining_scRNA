@@ -1,0 +1,44 @@
+Fig. 5 | In vivo oligo-conjugated anti-CD45 labelling stratifies splenic B cells
+
+a, Experimental scheme. An anti-CD45 antibody carrying a DNA oligonucleotide
+(PCR handles plus a 10x capture sequence) was administered in vivo; spleen was
+harvested and processed by CITE-seq, so that each cell carries both a
+transcriptome and a count of bound oligo-CD45 molecules.
+
+b, UMAP of the splenic B-cell compartment after removal of cluster 4
+(n = 5,740 cells), coloured by B-cell subtype and labelled directly on the
+plot. Subtype sizes: follicular B (Gpr183+) 2,564; follicular B 1,871;
+marginal zone B 721; follicular B [3] 547; immature/pre-B 37.
+
+c, Oligo-CD45 copies per cell by subtype, shown on a log1p scale. Violins are
+scaled to equal width; the inner boxes give the median and interquartile range
+with 1.5x IQR whiskers, and points beyond the whiskers are plotted. Group
+sizes are printed above each violin. P from a Kruskal-Wallis test across all
+five subtypes.
+
+d, Subtype composition along the labelling gradient. Cells were binned by
+oligo-CD45 copies (x, bin median, log1p scale) and each panel gives the
+percentage of cells in that bin belonging to one subtype. Point area is the
+number of cells contributing to the bin. The grey line and band are an
+ordinary least-squares fit with its 95% confidence band, shown to convey trend
+direction only; the printed statistic is a Spearman rank correlation between
+bin median and subtype share, computed across bins.
+
+e, The same cluster-4-removed compartment split into low (<= 1 oligo-CD45
+copies, n = 871) and high (>= 6 copies, n = 1,814) tails.
+
+f, Subtype composition of the tails in e.
+
+g, Differential expression within marginal zone B cells, comparing cells with
+>= 6 oligo-CD45 copies against cells with <= 1 copy. Each point is a gene from
+an export already restricted to |avg log2 fold change| >= 0.25 (n = 133), plus
+Cd274 added from a Wilcoxon test because it is absent from that export
+(log2 fold change 0.10, unadjusted P = 0.090). Red marks genes with
+Benjamini-Hochberg adjusted P < 0.05 (n = 89). Dashed lines mark the
+fold-change threshold and adjusted P = 0.05. Ringed genes are labelled.
+
+Statistics. All tests are two-sided. P values in c and d are unadjusted;
+adjusted P in g is Benjamini-Hochberg across genes as supplied in the export.
+Cells derive from a single pooled preparation, so the panels describe
+cell-to-cell variation within that preparation and carry no between-animal
+error term. Source data are provided as a Source Data file.

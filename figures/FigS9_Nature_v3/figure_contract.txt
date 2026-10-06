@@ -1,0 +1,56 @@
+Core conclusion:
+  EAE Visium resolves cluster marker programmes and maps POS versus NEG
+  immune-lineage prediction scores (DC, B, Neu1, PC, Mac) onto the
+  section. Panel b places Cxcl10, on the same colour scale as the
+  source spatial map, where Ccl2 was. Score differences hold among all
+  immune spots and, separately, inside L1–L3 versus L4–L6 windows.
+
+Figure archetype: image plate + quant
+Target journal/output: Nature double column / SI
+Backend: R exclusive (ggplot2 / patchwork / svglite / cairo_pdf / ragg)
+Final size: 183 x 248 mm
+
+Panel map:
+  a  Top marker heatmap, Visium clusters 0-8
+  b  Spatial maps of Mki67, Lgals3, Cxcl10, Hexb
+     Cxcl10 replaces Ccl2 and keeps the source map scale 0-2.5
+  c  DC POS | NEG prediction scores
+  d  B-cell POS | NEG prediction scores
+  e  Neu1 POS | NEG prediction scores
+  f  Plasma-cell POS | NEG prediction scores
+  g  Macrophage POS | NEG prediction scores
+  h  Boxplots: all immune spots, and windows split L1–L3 versus L4–L6
+
+Evidence hierarchy:
+  hero: c-g spatial lineage maps
+  support: a, b (Cxcl10 is the swapped marker map)
+  quant: h (Wilcoxon, all spots and windows)
+
+Statistics needed:
+  n immune spots overall and per window set
+  two-sided Wilcoxon POS vs NEG within all spots, L1–L3 and L4–L6
+  box = median and IQR, whiskers 1.5x IQR
+  Cxcl10 colour scale fixed at 0-2.5; values above 2.5 are clipped
+
+Source data:
+  marker table, immune prediction slim, Seurat predictions object,
+  lesion rectangles, and the Cxcl10 spatial slim (same barcodes and
+  H&E frame as the other panel-b genes)
+
+Image-integrity notes:
+  H&E global alpha 0.9 only; no contrast stretch
+  Cxcl10 is the same vector, coordinates, and 0-2.5 scale as the
+  source spatial map; it is redrawn in the panel-b grid, not pasted
+
+Reviewer risk:
+  heatmap display-samples <=60 spots/cluster
+  L4–L6 can reverse the L1–L3 direction, so window sets are tested
+  separately
+  Cxcl10 scale (0-2.5) is not the 0.995 quantile used for Mki67,
+  Lgals3 and Hexb
+  no calibrated scale bar on Visium H&E
+
+Reuse:
+  Structural adaptation of the previous Figure S9.
+  Cxcl10 measurement and colour limits are exact reuse of the source
+  spatial map; title style matches the other genes in panel b.

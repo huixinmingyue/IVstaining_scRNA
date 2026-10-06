@@ -1,0 +1,15 @@
+Fig. S6 | Oligo-conjugated anti-CD45 labelling of splenic T cells from the same CITE-seq experiment as Fig. 5
+
+a, UMAP of splenic T cells after removal of first-pass B-T doublet and myeloid-contaminated clusters and reclustering of the remaining cells (n = 3,837), coloured by Fig. 3 v4 functional class. Subtype sizes: naive CD4 1,411; naive CD8 1,205; unassigned 611; memory/activated CD4 446; memory-like CD8 164. Starting T cells were 4,314; 477 QC cells were removed before reclustering. Panels a and d use this reclustered embedding, not leftover cells on the parent T-cell UMAP.
+
+b, Oligo-CD45 copies per cell by subtype, shown on a log1p scale. Violins are scaled to equal width; the inner boxes give the median and interquartile range with 1.5x IQR whiskers, and points beyond the whiskers are plotted. Group sizes are printed above each violin. P from a Kruskal-Wallis test across the five display classes.
+
+c, Subtype composition along the labelling gradient. Cells were binned by oligo-CD45 copies (x, integer bin, log1p scale; bins with fewer than 20 cells omitted) and each panel gives the percentage of cells in that bin belonging to one subtype. Point area is the number of cells contributing to the bin. The grey line and band are an ordinary least-squares fit with its 95% confidence band, shown to convey trend direction only; the printed statistic is a Spearman rank correlation between bin midpoint and subtype share, computed across bins.
+
+d, The same reclustered embedding as a, subset into low (<= 1 oligo-CD45 copies, n = 621) and high (>= 6 copies, n = 1,124) tails.
+
+e, Subtype composition of the tails in d.
+
+f, Differential expression within memory/activated CD4 T cells, comparing cells with >= 6 oligo-CD45 copies (n = 149) against cells with <= 1 copy (n = 66). Points are genes with |avg log2 fold change| >= 0.25 and detection in at least 20% of High or Low cells (n = 1,892). The y axis is -log10 unadjusted Wilcoxon P because no gene reaches Benjamini-Hochberg adjusted P < 0.05. Dashed lines mark the fold-change threshold and unadjusted P = 0.05. Ringed genes are CD4 identity or activation markers present in that table.
+
+Statistics. All tests are two-sided. P values in b and c are unadjusted; adjusted P in f is Benjamini-Hochberg across genes returned by FindMarkers (min.pct = 0.1, |log2FC| threshold 0.25). Cells derive from a single pooled preparation, so the panels describe cell-to-cell variation within that preparation and carry no between-animal error term. Source data are provided as a Source Data file.

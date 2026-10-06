@@ -1,0 +1,40 @@
+Fig. 3 | Hard-gated CD4 and CD8 T cells occupy naive, memory and effector
+islands and shift with intravascular labelling
+
+a, UMAP of 6,098 cells from the original CD4_T annotation, split by
+intravascular labelling (IV- n = 3,489; IV+ n = 2,609). Colour is the hard
+RNA gate (counts > 0; T-B doublet, then NKT, DP, true CD4, true CD8,
+unassigned). True CD4 and true CD8 islands are labelled by function from
+canonical RNA markers: naive CD4 T (cluster 1b; Ccr7/Sell/Tcf7/Lef1),
+memory/activated CD4 T (cluster 1a; S100a4/Cxcr3/Cxcr6), naive CD8 T
+(cluster 0), memory-like CD8 T (cluster 3a; Eomes/Il2rb), and
+effector/cytotoxic CD8 T (cluster 3b; Ccl5/Nkg7/Prf1/Gzma/Gzmb). Residual
+true CD4 or true CD8 cells outside those islands are CD4 other and CD8 other.
+Foxp3 is detected in 12% of cluster 1a and 0% of 1b, so Treg is not assigned
+as a separate island. Trdc is not cluster-restricted, so gamma-delta T is
+not assigned. Protein was not used. Every recovered cell is plotted.
+
+b, Subtype composition as the percentage of cells in each compartment
+(same colours as a). Naive and memory/activated CD4 T are enriched in IV-;
+effector/cytotoxic CD8 T and NKT-like T are enriched in IV+. Chi-square
+P = 3.0e-102. Each compartment is one pooled sample; percentages have no
+biological error bar.
+
+c, ImmGen ULI (GSE109125) spleen T/NK z-scores for true-CD4 Intra DEGs
+(16 IV- up, 38 IV+ up). This panel does not classify query cells. Each row
+is a gene; each column is a bulk ImmGen subset (naive CD4, total CD4, Treg,
+naive CD8, NKT, gdT, NK immature, NK int, NK mature); colour is the
+gene-wise z of log1p counts. IV- up genes peak in naive CD4 / Treg; IV+ up
+genes peak in NKT / NK. Gene names are in the Source Data.
+
+d, ImmGen identity module scores on the gated classes in a (Fig. 2d method).
+Each module is the top 30 ImmGen genes with log2FC >= 1 versus naive CD4
+(naive CD4 versus naive CD8), matching the nine columns in c. The total CD4
+and Treg modules are highest in true CD4; NKT and NK modules are highest
+in gated NKT. Violins show the full cell distribution; boxes show the median
+and IQR.
+
+Lineage-marker feature plots for the gate (Cd4, Cd8b1, Klrb1c, Ms4a1) are
+in Fig. S3a-d. Marker means for the functional labels are in the Source Data.
+
+Cells are the observation unit. Source data are provided as a Source Data file.

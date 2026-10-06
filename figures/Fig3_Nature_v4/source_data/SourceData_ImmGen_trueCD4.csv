@@ -1,0 +1,487 @@
+"gene","direction","subset","z"
+"Pacsin1","IV- up","Naive CD4",0.762592189122104
+"Pacsin1","IV- up","Total CD4",0.720056665189397
+"Pacsin1","IV- up","Treg",0.75562377644644
+"Pacsin1","IV- up","Naive CD8",0.639001551820272
+"Pacsin1","IV- up","NKT",0.641626598141746
+"Pacsin1","IV- up","gdT",0.462019067632766
+"Pacsin1","IV- up","NK immature",-1.23401921786461
+"Pacsin1","IV- up","NK int",-1.37345031524406
+"Pacsin1","IV- up","NK mature",-1.37345031524406
+"Izumo1r","IV- up","Naive CD4",0.567638721272916
+"Izumo1r","IV- up","Total CD4",0.908979404065321
+"Izumo1r","IV- up","Treg",1.11883089576594
+"Izumo1r","IV- up","Naive CD8",0.228426538931761
+"Izumo1r","IV- up","NKT",0.739789116958546
+"Izumo1r","IV- up","gdT",0.275693509587605
+"Izumo1r","IV- up","NK immature",-1.23749830917847
+"Izumo1r","IV- up","NK int",-1.23749830917847
+"Izumo1r","IV- up","NK mature",-1.36436156822515
+"Tox","IV- up","Naive CD4",0.263186149438196
+"Tox","IV- up","Total CD4",0.00994746358497684
+"Tox","IV- up","Treg",0.881254475046545
+"Tox","IV- up","Naive CD8",-0.0916565277228965
+"Tox","IV- up","NKT",-1.50382035034613
+"Tox","IV- up","gdT",1.50220332238019
+"Tox","IV- up","NK immature",0.587456306411432
+"Tox","IV- up","NK int",-0.144750488446193
+"Tox","IV- up","NK mature",-1.50382035034613
+"Cd27","IV- up","Naive CD4",0.432648206984538
+"Cd27","IV- up","Total CD4",0.88211758897154
+"Cd27","IV- up","Treg",0.521577089769737
+"Cd27","IV- up","Naive CD8",0.425694610371399
+"Cd27","IV- up","NKT",0.485249161934516
+"Cd27","IV- up","gdT",0.834790244608583
+"Cd27","IV- up","NK immature",-0.544885547477873
+"Cd27","IV- up","NK int",-0.910353085801694
+"Cd27","IV- up","NK mature",-2.12683826936075
+"Hnrnph3","IV- up","Naive CD4",0.957202192408966
+"Hnrnph3","IV- up","Total CD4",-1.76092040588292
+"Hnrnph3","IV- up","Treg",-0.163862434125599
+"Hnrnph3","IV- up","Naive CD8",0.0310574289366475
+"Hnrnph3","IV- up","NKT",-0.875251885430552
+"Hnrnph3","IV- up","gdT",1.40705668929994
+"Hnrnph3","IV- up","NK immature",-0.6685363525485
+"Hnrnph3","IV- up","NK int",0.231377745309708
+"Hnrnph3","IV- up","NK mature",0.841877022032306
+"Mia2","IV- up","Naive CD4",1.15016220390266
+"Mia2","IV- up","Total CD4",-1.21741143399807
+"Mia2","IV- up","Treg",0.962947002810727
+"Mia2","IV- up","Naive CD8",0.913028845119049
+"Mia2","IV- up","NKT",-1.40291983015103
+"Mia2","IV- up","gdT",0.779708816372627
+"Mia2","IV- up","NK immature",-0.492203614406925
+"Mia2","IV- up","NK int",-0.779906880081523
+"Mia2","IV- up","NK mature",0.0865948904324864
+"Il6st","IV- up","Naive CD4",0.864751084895987
+"Il6st","IV- up","Total CD4",0.80961612103484
+"Il6st","IV- up","Treg",0.764350561849859
+"Il6st","IV- up","Naive CD8",0.897752942255847
+"Il6st","IV- up","NKT",-0.390168140095009
+"Il6st","IV- up","gdT",0.700158456082884
+"Il6st","IV- up","NK immature",-1.04820122774687
+"Il6st","IV- up","NK int",-1.08714012779324
+"Il6st","IV- up","NK mature",-1.5111196704843
+"Limd2","IV- up","Naive CD4",0.822476308394043
+"Limd2","IV- up","Total CD4",1.21594596443851
+"Limd2","IV- up","Treg",0.0301030684302329
+"Limd2","IV- up","Naive CD8",0.549240124776396
+"Limd2","IV- up","NKT",0.822606441150844
+"Limd2","IV- up","gdT",0.067675759268145
+"Limd2","IV- up","NK immature",-0.725770193540621
+"Limd2","IV- up","NK int",-0.909527110299621
+"Limd2","IV- up","NK mature",-1.87275036261792
+"Lck","IV- up","Naive CD4",-0.0201795646010533
+"Lck","IV- up","Total CD4",0.402072881800331
+"Lck","IV- up","Treg",-1.46065673518431
+"Lck","IV- up","Naive CD8",0.430301249568569
+"Lck","IV- up","NKT",1.36771250965275
+"Lck","IV- up","gdT",1.15356961253951
+"Lck","IV- up","NK immature",0.00926805383746029
+"Lck","IV- up","NK int",-0.418225187955586
+"Lck","IV- up","NK mature",-1.46386281965768
+"Inpp4b","IV- up","Naive CD4",0.854043319533094
+"Inpp4b","IV- up","Total CD4",0.635136828662122
+"Inpp4b","IV- up","Treg",0.993130385629059
+"Inpp4b","IV- up","Naive CD8",0.689702686766783
+"Inpp4b","IV- up","NKT",0.630255733486562
+"Inpp4b","IV- up","gdT",0.0666074786964134
+"Inpp4b","IV- up","NK immature",-1.25350725302157
+"Inpp4b","IV- up","NK int",-1.38577494093411
+"Inpp4b","IV- up","NK mature",-1.22959423881836
+"Pfn1","IV- up","Naive CD4",-1.14970441099142
+"Pfn1","IV- up","Total CD4",0.144743641027149
+"Pfn1","IV- up","Treg",-1.12642842144285
+"Pfn1","IV- up","Naive CD8",-1.12993388026867
+"Pfn1","IV- up","NKT",1.71675975494743
+"Pfn1","IV- up","gdT",0.13916593174701
+"Pfn1","IV- up","NK immature",0.760784986698676
+"Pfn1","IV- up","NK int",0.745655878811503
+"Pfn1","IV- up","NK mature",-0.101043480528842
+"Usp34","IV- up","Naive CD4",0.411733693178112
+"Usp34","IV- up","Total CD4",-1.64674402863042
+"Usp34","IV- up","Treg",0.457782005932119
+"Usp34","IV- up","Naive CD8",0.297122391909656
+"Usp34","IV- up","NKT",-1.74141984417338
+"Usp34","IV- up","gdT",0.848272861856458
+"Usp34","IV- up","NK immature",0.334644429988842
+"Usp34","IV- up","NK int",0.0624603026373347
+"Usp34","IV- up","NK mature",0.976148187301269
+"Prkca","IV- up","Naive CD4",-0.889917395737282
+"Prkca","IV- up","Total CD4",0.0787791511219795
+"Prkca","IV- up","Treg",1.89375342088961
+"Prkca","IV- up","Naive CD8",-1.22820234058678
+"Prkca","IV- up","NKT",-0.860354908472342
+"Prkca","IV- up","gdT",0.175802013571418
+"Prkca","IV- up","NK immature",-0.438652930137136
+"Prkca","IV- up","NK int",0.222931592757701
+"Prkca","IV- up","NK mature",1.04586139659283
+"Aff3","IV- up","Naive CD4",0.418154876367227
+"Aff3","IV- up","Total CD4",0.500066617486381
+"Aff3","IV- up","Treg",0.707048103088933
+"Aff3","IV- up","Naive CD8",0.709523770082424
+"Aff3","IV- up","NKT",-1.91198315979995
+"Aff3","IV- up","gdT",0.697104139451583
+"Aff3","IV- up","NK immature",0.450872996199277
+"Aff3","IV- up","NK int",-0.0807192091924147
+"Aff3","IV- up","NK mature",-1.49006813368346
+"Ash1l","IV- up","Naive CD4",1.27947333059342
+"Ash1l","IV- up","Total CD4",-1.63754315126777
+"Ash1l","IV- up","Treg",0.279959248181441
+"Ash1l","IV- up","Naive CD8",-0.541075527605801
+"Ash1l","IV- up","NKT",-1.15277480741533
+"Ash1l","IV- up","gdT",1.16843377291492
+"Ash1l","IV- up","NK immature",-0.0575195674209476
+"Ash1l","IV- up","NK int",-0.113511223521177
+"Ash1l","IV- up","NK mature",0.774557925541242
+"Trac","IV- up","Naive CD4",0.854780037415239
+"Trac","IV- up","Total CD4",0.732742745149588
+"Trac","IV- up","Treg",0.65171116304377
+"Trac","IV- up","Naive CD8",0.775400249274749
+"Trac","IV- up","NKT",0.860823023697096
+"Trac","IV- up","gdT",-0.0885395302558916
+"Trac","IV- up","NK immature",-0.956335427879507
+"Trac","IV- up","NK int",-1.27939553294223
+"Trac","IV- up","NK mature",-1.55118672750281
+"Lgals3","IV+ up","Naive CD4",-1.34168416889072
+"Lgals3","IV+ up","Total CD4",0.201018322872652
+"Lgals3","IV+ up","Treg",-1.15953088894123
+"Lgals3","IV+ up","Naive CD8",-1.34168416889072
+"Lgals3","IV+ up","NKT",1.16441759145585
+"Lgals3","IV+ up","gdT",0.884697671007857
+"Lgals3","IV+ up","NK immature",0.603877278308707
+"Lgals3","IV+ up","NK int",0.600911952261712
+"Lgals3","IV+ up","NK mature",0.387976410815896
+"Klrk1","IV+ up","Naive CD4",-1.42678958061666
+"Klrk1","IV+ up","Total CD4",-0.89903532735192
+"Klrk1","IV+ up","Treg",-1.25794688864809
+"Klrk1","IV+ up","Naive CD8",-0.208279474835234
+"Klrk1","IV+ up","NKT",0.368065290804912
+"Klrk1","IV+ up","gdT",0.266344247400893
+"Klrk1","IV+ up","NK immature",1.06413053340326
+"Klrk1","IV+ up","NK int",1.0496346662827
+"Klrk1","IV+ up","NK mature",1.04387653356015
+"Cxcr6","IV+ up","Naive CD4",-0.511295866048485
+"Cxcr6","IV+ up","Total CD4",-0.0300831244753776
+"Cxcr6","IV+ up","Treg",-0.981684716582073
+"Cxcr6","IV+ up","Naive CD8",0.847769288059307
+"Cxcr6","IV+ up","NKT",1.84408719281298
+"Cxcr6","IV+ up","gdT",1.0245564850604
+"Cxcr6","IV+ up","NK immature",-0.745760369410146
+"Cxcr6","IV+ up","NK int",-0.701828520006451
+"Cxcr6","IV+ up","NK mature",-0.745760369410146
+"Gna15","IV+ up","Naive CD4",-2.37036157050281
+"Gna15","IV+ up","Total CD4",-0.0163611316110945
+"Gna15","IV+ up","Treg",-0.278050355401832
+"Gna15","IV+ up","Naive CD8",0.0563322989774565
+"Gna15","IV+ up","NKT",1.37745829406901
+"Gna15","IV+ up","gdT",0.325851563884053
+"Gna15","IV+ up","NK immature",0.257754640331372
+"Gna15","IV+ up","NK int",0.426345207430516
+"Gna15","IV+ up","NK mature",0.221031052823332
+"Lilr4b","IV+ up","Naive CD4",-1.10804496163777
+"Lilr4b","IV+ up","Total CD4",0.340748778096255
+"Lilr4b","IV+ up","Treg",-0.356981780370792
+"Lilr4b","IV+ up","Naive CD8",-1.10804496163777
+"Lilr4b","IV+ up","NKT",-0.00450803394079278
+"Lilr4b","IV+ up","gdT",0.786284385787123
+"Lilr4b","IV+ up","NK immature",1.58071291019374
+"Lilr4b","IV+ up","NK int",0.977878625147772
+"Lilr4b","IV+ up","NK mature",-1.10804496163777
+"Ccr2","IV+ up","Naive CD4",-1.07336286212648
+"Ccr2","IV+ up","Total CD4",-0.398686373420983
+"Ccr2","IV+ up","Treg",-1.1642749951935
+"Ccr2","IV+ up","Naive CD8",-1.32140531795608
+"Ccr2","IV+ up","NKT",0.857926585234146
+"Ccr2","IV+ up","gdT",0.255472739567529
+"Ccr2","IV+ up","NK immature",1.09852505204447
+"Ccr2","IV+ up","NK int",1.03920588984182
+"Ccr2","IV+ up","NK mature",0.706599282009082
+"S100a4","IV+ up","Naive CD4",-1.09271138824647
+"S100a4","IV+ up","Total CD4",0.455290004312257
+"S100a4","IV+ up","Treg",-1.32082423455827
+"S100a4","IV+ up","Naive CD8",-1.32082423455827
+"S100a4","IV+ up","NKT",1.05580290759544
+"S100a4","IV+ up","gdT",1.15493523367443
+"S100a4","IV+ up","NK immature",-0.0542575934614207
+"S100a4","IV+ up","NK int",0.443190709975416
+"S100a4","IV+ up","NK mature",0.679398595266881
+"Tmem176a","IV+ up","Naive CD4",0.129795279226446
+"Tmem176a","IV+ up","Total CD4",-0.270309507194848
+"Tmem176a","IV+ up","Treg",0.220854762818153
+"Tmem176a","IV+ up","Naive CD8",-0.0666218042627797
+"Tmem176a","IV+ up","NKT",1.4397781360702
+"Tmem176a","IV+ up","gdT",1.36692193382165
+"Tmem176a","IV+ up","NK immature",-0.849018964583231
+"Tmem176a","IV+ up","NK int",-1.77670944752783
+"Tmem176a","IV+ up","NK mature",-0.194690388367758
+"Il18rap","IV+ up","Naive CD4",-1.56311985907705
+"Il18rap","IV+ up","Total CD4",-0.568652780177179
+"Il18rap","IV+ up","Treg",-1.00833030245062
+"Il18rap","IV+ up","Naive CD8",-0.765515671398641
+"Il18rap","IV+ up","NKT",0.551274873574661
+"Il18rap","IV+ up","gdT",0.226989191764663
+"Il18rap","IV+ up","NK immature",0.958733349454365
+"Il18rap","IV+ up","NK int",1.03693225963882
+"Il18rap","IV+ up","NK mature",1.13168893867098
+"Rap1gap2","IV+ up","Naive CD4",-1.58481024423514
+"Rap1gap2","IV+ up","Total CD4",-0.82266287815502
+"Rap1gap2","IV+ up","Treg",-0.535793092336594
+"Rap1gap2","IV+ up","Naive CD8",-0.437410057429867
+"Rap1gap2","IV+ up","NKT",-0.244980991570751
+"Rap1gap2","IV+ up","gdT",0.0667605460806543
+"Rap1gap2","IV+ up","NK immature",1.0107622210968
+"Rap1gap2","IV+ up","NK int",1.25685022265643
+"Rap1gap2","IV+ up","NK mature",1.29128427389349
+"Lilrb4a","IV+ up","Naive CD4",-0.957885274822626
+"Lilrb4a","IV+ up","Total CD4",-0.185176867195492
+"Lilrb4a","IV+ up","Treg",-0.957885274822626
+"Lilrb4a","IV+ up","Naive CD8",-0.957885274822626
+"Lilrb4a","IV+ up","NKT",-0.797533792235975
+"Lilrb4a","IV+ up","gdT",1.18219201743992
+"Lilrb4a","IV+ up","NK immature",1.52816039090226
+"Lilrb4a","IV+ up","NK int",0.879185500298821
+"Lilrb4a","IV+ up","NK mature",0.266828575258339
+"Tmem176b","IV+ up","Naive CD4",-0.341834672695261
+"Tmem176b","IV+ up","Total CD4",-0.628982070928601
+"Tmem176b","IV+ up","Treg",0.219505639833023
+"Tmem176b","IV+ up","Naive CD8",-0.341834672695261
+"Tmem176b","IV+ up","NKT",1.67587584484824
+"Tmem176b","IV+ up","gdT",1.67031033706897
+"Tmem176b","IV+ up","NK immature",-0.695813897678223
+"Tmem176b","IV+ up","NK int",-0.895588237798134
+"Tmem176b","IV+ up","NK mature",-0.661638269954754
+"Nebl","IV+ up","Naive CD4",-0.294813312264484
+"Nebl","IV+ up","Total CD4",0.0194574165308186
+"Nebl","IV+ up","Treg",-1.59595773469202
+"Nebl","IV+ up","Naive CD8",-1.66640767163223
+"Nebl","IV+ up","NKT",0.849116892680279
+"Nebl","IV+ up","gdT",0.461705454855394
+"Nebl","IV+ up","NK immature",0.717235024858851
+"Nebl","IV+ up","NK int",0.771725828061712
+"Nebl","IV+ up","NK mature",0.737938101601681
+"Lgals1","IV+ up","Naive CD4",-1.26337865406099
+"Lgals1","IV+ up","Total CD4",-0.609207264421824
+"Lgals1","IV+ up","Treg",-0.97294038627192
+"Lgals1","IV+ up","Naive CD8",-0.925137344255075
+"Lgals1","IV+ up","NKT",0.138296334486009
+"Lgals1","IV+ up","gdT",0.171074135862376
+"Lgals1","IV+ up","NK immature",0.802790138179976
+"Lgals1","IV+ up","NK int",1.28702987716783
+"Lgals1","IV+ up","NK mature",1.37147316331362
+"Ccl5","IV+ up","Naive CD4",-1.43250252762723
+"Ccl5","IV+ up","Total CD4",-0.239272165756237
+"Ccl5","IV+ up","Treg",-1.22409347860596
+"Ccl5","IV+ up","Naive CD8",-1.03725949780686
+"Ccl5","IV+ up","NKT",0.598834678913447
+"Ccl5","IV+ up","gdT",0.468713580255186
+"Ccl5","IV+ up","NK immature",0.938542653814282
+"Ccl5","IV+ up","NK int",0.979013406819688
+"Ccl5","IV+ up","NK mature",0.948023349993693
+"Nkg7","IV+ up","Naive CD4",-1.88124088575831
+"Nkg7","IV+ up","Total CD4",-0.739328293318316
+"Nkg7","IV+ up","Treg",-1.12939712527125
+"Nkg7","IV+ up","Naive CD8",0.318628743730491
+"Nkg7","IV+ up","NKT",0.490727534001006
+"Nkg7","IV+ up","gdT",0.418831341452474
+"Nkg7","IV+ up","NK immature",0.81188444724814
+"Nkg7","IV+ up","NK int",0.853281552041262
+"Nkg7","IV+ up","NK mature",0.856612685874503
+"Rora","IV+ up","Naive CD4",-0.757944534690467
+"Rora","IV+ up","Total CD4",-0.713358532811452
+"Rora","IV+ up","Treg",-0.203791395471494
+"Rora","IV+ up","Naive CD8",-0.725881455945566
+"Rora","IV+ up","NKT",2.36254630176063
+"Rora","IV+ up","gdT",0.746176521668256
+"Rora","IV+ up","NK immature",-0.356048298803962
+"Rora","IV+ up","NK int",-0.278766963833407
+"Rora","IV+ up","NK mature",-0.0729316418725355
+"Crip1","IV+ up","Naive CD4",-0.835654689543047
+"Crip1","IV+ up","Total CD4",1.97937726222039
+"Crip1","IV+ up","Treg",-0.656326101999522
+"Crip1","IV+ up","Naive CD8",-0.53392781954482
+"Crip1","IV+ up","NKT",-0.123963587823028
+"Crip1","IV+ up","gdT",0.299210716835442
+"Crip1","IV+ up","NK immature",0.639624890153379
+"Crip1","IV+ up","NK int",0.579861901838398
+"Crip1","IV+ up","NK mature",-1.34820257213719
+"Plac8","IV+ up","Naive CD4",-1.32748864374426
+"Plac8","IV+ up","Total CD4",-0.695232429736227
+"Plac8","IV+ up","Treg",-0.835349639567062
+"Plac8","IV+ up","Naive CD8",1.163276323239
+"Plac8","IV+ up","NKT",1.17150369982955
+"Plac8","IV+ up","gdT",1.21238463385331
+"Plac8","IV+ up","NK immature",0.239555310877657
+"Plac8","IV+ up","NK int",-0.0327426191918377
+"Plac8","IV+ up","NK mature",-0.89590663556012
+"Insyn2b","IV+ up","Naive CD4",-0.587614207100675
+"Insyn2b","IV+ up","Total CD4",-0.904684494363686
+"Insyn2b","IV+ up","Treg",-1.35954792464288
+"Insyn2b","IV+ up","Naive CD8",-0.965636642718363
+"Insyn2b","IV+ up","NKT",0.26272224275916
+"Insyn2b","IV+ up","gdT",0.481290700517898
+"Insyn2b","IV+ up","NK immature",0.715754889124471
+"Insyn2b","IV+ up","NK int",0.6976867465278
+"Insyn2b","IV+ up","NK mature",1.66002868989626
+"Ctla2a","IV+ up","Naive CD4",-1.19546189853542
+"Ctla2a","IV+ up","Total CD4",-0.801459509260729
+"Ctla2a","IV+ up","Treg",-1.32830936908935
+"Ctla2a","IV+ up","Naive CD8",-0.603995808760695
+"Ctla2a","IV+ up","NKT",0.436996339101264
+"Ctla2a","IV+ up","gdT",0.331108172420139
+"Ctla2a","IV+ up","NK immature",1.28649033795522
+"Ctla2a","IV+ up","NK int",1.14532897121064
+"Ctla2a","IV+ up","NK mature",0.729302764958934
+"Ahnak","IV+ up","Naive CD4",-1.48406123693855
+"Ahnak","IV+ up","Total CD4",-1.04312291091174
+"Ahnak","IV+ up","Treg",-0.587159137299673
+"Ahnak","IV+ up","Naive CD8",-0.532494714751107
+"Ahnak","IV+ up","NKT",-0.0451814144010392
+"Ahnak","IV+ up","gdT",0.235414051607322
+"Ahnak","IV+ up","NK immature",1.00999651312822
+"Ahnak","IV+ up","NK int",1.15033580079404
+"Ahnak","IV+ up","NK mature",1.29627304877252
+"S1pr4","IV+ up","Naive CD4",0.145303123214149
+"S1pr4","IV+ up","Total CD4",1.78732447162902
+"S1pr4","IV+ up","Treg",-1.05781218398207
+"S1pr4","IV+ up","Naive CD8",0.765635501582031
+"S1pr4","IV+ up","NKT",0.40827653366773
+"S1pr4","IV+ up","gdT",-0.923504678502576
+"S1pr4","IV+ up","NK immature",-1.31716068541681
+"S1pr4","IV+ up","NK int",-0.295381858855607
+"S1pr4","IV+ up","NK mature",0.487319776664148
+"Atp10a","IV+ up","Naive CD4",1.17889501763129
+"Atp10a","IV+ up","Total CD4",-0.847132098122599
+"Atp10a","IV+ up","Treg",0.040751694303188
+"Atp10a","IV+ up","Naive CD8",-1.42901545320254
+"Atp10a","IV+ up","NKT",-1.08899594297227
+"Atp10a","IV+ up","gdT",-0.457215586839351
+"Atp10a","IV+ up","NK immature",1.22487122136886
+"Atp10a","IV+ up","NK int",0.735487728254606
+"Atp10a","IV+ up","NK mature",0.642353419578807
+"S100a6","IV+ up","Naive CD4",-1.82277172757867
+"S100a6","IV+ up","Total CD4",0.123142314877501
+"S100a6","IV+ up","Treg",-0.491657744934356
+"S100a6","IV+ up","Naive CD8",-1.35955412103231
+"S100a6","IV+ up","NKT",0.833368178536402
+"S100a6","IV+ up","gdT",0.675687902491776
+"S100a6","IV+ up","NK immature",0.539299130869678
+"S100a6","IV+ up","NK int",0.779456928100468
+"S100a6","IV+ up","NK mature",0.723029138669514
+"Runx2","IV+ up","Naive CD4",-1.82503866906018
+"Runx2","IV+ up","Total CD4",-1.04741386449026
+"Runx2","IV+ up","Treg",-0.264664089106208
+"Runx2","IV+ up","Naive CD8",-0.469345020312082
+"Runx2","IV+ up","NKT",-0.00986534692460727
+"Runx2","IV+ up","gdT",0.873407580138762
+"Runx2","IV+ up","NK immature",0.915723721957898
+"Runx2","IV+ up","NK int",0.98781415926373
+"Runx2","IV+ up","NK mature",0.839381528532953
+"Il18r1","IV+ up","Naive CD4",-0.647045185760235
+"Il18r1","IV+ up","Total CD4",-1.02823702880695
+"Il18r1","IV+ up","Treg",-1.31034820357053
+"Il18r1","IV+ up","Naive CD8",-0.811025146212482
+"Il18r1","IV+ up","NKT",0.427946284662856
+"Il18r1","IV+ up","gdT",-0.0413362659432702
+"Il18r1","IV+ up","NK immature",0.910368563344979
+"Il18r1","IV+ up","NK int",1.17408626564642
+"Il18r1","IV+ up","NK mature",1.32559071663921
+"Zfp36","IV+ up","Naive CD4",0.498480766395682
+"Zfp36","IV+ up","Total CD4",1.95027251150445
+"Zfp36","IV+ up","Treg",0.294257687608959
+"Zfp36","IV+ up","Naive CD8",-0.988094495257245
+"Zfp36","IV+ up","NKT",-0.890547537409899
+"Zfp36","IV+ up","gdT",0.508946076904538
+"Zfp36","IV+ up","NK immature",0.159691100878637
+"Zfp36","IV+ up","NK int",-0.2041954894561
+"Zfp36","IV+ up","NK mature",-1.32881062116904
+"Raet1e","IV+ up","Naive CD4",-1.10489534497224
+"Raet1e","IV+ up","Total CD4",0.388306974916376
+"Raet1e","IV+ up","Treg",0.204570579030629
+"Raet1e","IV+ up","Naive CD8",-0.278714332230889
+"Raet1e","IV+ up","NKT",1.15633366145423
+"Raet1e","IV+ up","gdT",-1.10489534497224
+"Raet1e","IV+ up","NK immature",-1.10489534497224
+"Raet1e","IV+ up","NK int",0.204570579030629
+"Raet1e","IV+ up","NK mature",1.63961857271575
+"Nabp1","IV+ up","Naive CD4",-0.468296771510709
+"Nabp1","IV+ up","Total CD4",-1.3254588126987
+"Nabp1","IV+ up","Treg",0.840055936509878
+"Nabp1","IV+ up","Naive CD8",-1.56950092223101
+"Nabp1","IV+ up","NKT",1.5064603958567
+"Nabp1","IV+ up","gdT",-0.107963997540303
+"Nabp1","IV+ up","NK immature",0.662720689437011
+"Nabp1","IV+ up","NK int",0.348969955439284
+"Nabp1","IV+ up","NK mature",0.113013526737858
+"Cox17","IV+ up","Naive CD4",-0.911688143485015
+"Cox17","IV+ up","Total CD4",-0.978909860885114
+"Cox17","IV+ up","Treg",-0.633325906353203
+"Cox17","IV+ up","Naive CD8",-1.27759796151159
+"Cox17","IV+ up","NKT",0.3057556230319
+"Cox17","IV+ up","gdT",1.19449058799357
+"Cox17","IV+ up","NK immature",1.23205668506369
+"Cox17","IV+ up","NK int",1.06721131301718
+"Cox17","IV+ up","NK mature",0.00200766312857328
+"S100a10","IV+ up","Naive CD4",-1.68964419309846
+"S100a10","IV+ up","Total CD4",-0.633715999193366
+"S100a10","IV+ up","Treg",-0.846799196009832
+"S100a10","IV+ up","Naive CD8",-0.716161653758287
+"S100a10","IV+ up","NKT",0.859765086467821
+"S100a10","IV+ up","gdT",0.169128295628117
+"S100a10","IV+ up","NK immature",0.833997029781785
+"S100a10","IV+ up","NK int",1.05084939782314
+"S100a10","IV+ up","NK mature",0.972581232359087
+"Pim1","IV+ up","Naive CD4",-0.655781452037373
+"Pim1","IV+ up","Total CD4",-0.844550476678602
+"Pim1","IV+ up","Treg",1.8354850350026
+"Pim1","IV+ up","Naive CD8",-0.748095464351943
+"Pim1","IV+ up","NKT",-1.15280714870694
+"Pim1","IV+ up","gdT",-0.321686926858875
+"Pim1","IV+ up","NK immature",0.214197292109609
+"Pim1","IV+ up","NK int",0.994482087962599
+"Pim1","IV+ up","NK mature",0.678757053558934
+"Hmgb2","IV+ up","Naive CD4",-1.09032243687106
+"Hmgb2","IV+ up","Total CD4",0.0177769241990513
+"Hmgb2","IV+ up","Treg",-1.1216614791887
+"Hmgb2","IV+ up","Naive CD8",-1.43666119200446
+"Hmgb2","IV+ up","NKT",1.45500397887769
+"Hmgb2","IV+ up","gdT",0.199562649612047
+"Hmgb2","IV+ up","NK immature",0.734167611096207
+"Hmgb2","IV+ up","NK int",0.724625727191927
+"Hmgb2","IV+ up","NK mature",0.517508217087302
+"Iqgap2","IV+ up","Naive CD4",-0.37460014576972
+"Iqgap2","IV+ up","Total CD4",-1.78623039990145
+"Iqgap2","IV+ up","Treg",-0.134444951387465
+"Iqgap2","IV+ up","Naive CD8",-0.218524980481566
+"Iqgap2","IV+ up","NKT",-1.09475510126851
+"Iqgap2","IV+ up","gdT",0.591029174154432
+"Iqgap2","IV+ up","NK immature",0.911254965692691
+"Iqgap2","IV+ up","NK int",1.11164879905205
+"Iqgap2","IV+ up","NK mature",0.994622639909542
+"Ifngr1","IV+ up","Naive CD4",-1.39635833747049
+"Ifngr1","IV+ up","Total CD4",-0.932312776871335
+"Ifngr1","IV+ up","Treg",-0.543785753479024
+"Ifngr1","IV+ up","Naive CD8",-0.972288078309712
+"Ifngr1","IV+ up","NKT",0.033863240473264
+"Ifngr1","IV+ up","gdT",0.533760585580103
+"Ifngr1","IV+ up","NK immature",0.87207024537488
+"Ifngr1","IV+ up","NK int",1.22743303612749
+"Ifngr1","IV+ up","NK mature",1.17761783857483
+"Il7r","IV+ up","Naive CD4",0.717845001408972
+"Il7r","IV+ up","Total CD4",0.576616208277356
+"Il7r","IV+ up","Treg",0.30948131133759
+"Il7r","IV+ up","Naive CD8",0.68434842689152
+"Il7r","IV+ up","NKT",0.745147905811069
+"Il7r","IV+ up","gdT",0.670825312740177
+"Il7r","IV+ up","NK immature",-0.536836684785279
+"Il7r","IV+ up","NK int",-1.21064752881277
+"Il7r","IV+ up","NK mature",-1.95677995286863
+"Cd47","IV+ up","Naive CD4",-0.00942999652128293
+"Cd47","IV+ up","Total CD4",-1.6098646926779
+"Cd47","IV+ up","Treg",-0.640183672330545
+"Cd47","IV+ up","Naive CD8",-0.38741109114772
+"Cd47","IV+ up","NKT",-0.3318958124586
+"Cd47","IV+ up","gdT",-0.609717145519367
+"Cd47","IV+ up","NK immature",1.31387756194041
+"Cd47","IV+ up","NK int",1.30037848725471
+"Cd47","IV+ up","NK mature",0.974246361460319

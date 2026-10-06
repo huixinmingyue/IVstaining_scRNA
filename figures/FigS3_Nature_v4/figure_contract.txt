@@ -1,0 +1,29 @@
+Core conclusion:
+  The hard RNA gate used in Fig. 3 is recovered by lineage-gene detection
+  and by Cd4 / Cd8b1 / Klrb1c / Ms4a1. The Fig. 3 functional labels are
+  recovered by the table marker set (dot plot) and by Ccr7 / S100a4 /
+  Eomes / Ccl5.
+
+Figure archetype: quantitative grid
+Target journal/output: Nature double column (SI)
+Backend: R (ggplot2 / patchwork / svglite / cairo_pdf / ragg)
+Final size: 183 x 305 mm
+Panel map:
+  a    RNA detection heatmap after the hard gate
+  b-e  Cd4 / Cd8b1 / Klrb1c / Ms4a1 (same format as FigS3 v3)
+  f    Dot plot of table markers on the seven annotated identities
+  g-j  Ccr7 / S100a4 / Eomes / Ccl5 (same format as b-e; violins on
+       functional identities)
+Evidence hierarchy:
+  hero: a (gate recovered by detection)
+  support: b-e (canonical lineage markers)
+  validation: f (table genes vs new labels)
+  support: g-j (naive / memory-CD4 / memory-CD8 / effector diagnostics)
+Statistics needed: detection %; Wilcoxon peak vs rest; scaled mean and
+  percent expressing on the dot plot
+Source data: lineage detection, Fig3_T_cells, FigS3_annot_expr
+Image-integrity notes: no micrographs
+Reviewer risk: Trgc1/Trgc2 absent from the object so the gdT block is
+  Trdc only; Foxp3 is enriched in CD4-1a but not majority; Eomes mean
+  peaks in CD8-3b rather than CD8-3a; dot plot and g-j violins exclude
+  Unassigned / DP / CD4-other / CD8-other

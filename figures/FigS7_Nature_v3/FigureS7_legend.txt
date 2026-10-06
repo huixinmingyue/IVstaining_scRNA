@@ -1,0 +1,13 @@
+Fig. S7 | Marker identity, CellChat interaction counts, T/B signalling, and locked genes in all cells
+
+a, Scaled expression of unique top-10 cluster markers (88 genes). Display: random sample of at most 150 cells per cluster (seed 42; 1,350 cells shown) from n = 46,976 (EAE_POS n = 15,792; EAE_NEG n = 31,184). Colour is scaled RNA clipped to +/- 2.5. Clusters: 0 Bcell, 1 Tcell, 2 Mac, 3 Neu1, 4 Neu2, 5 Mg, 6 PC, 7 DC, 8 UK.
+
+b, Canonical lineage markers. Colour is the scaled mean of expm1-transformed RNA; point area is percent expressing.
+
+c, CellChat interaction counts on a shared edge-width scale; node size is total degree. Totals: EAE_POS n = 417; EAE_NEG n = 383. UK in EAE_NEG has n = 14 cells. EAE_POS = CNS_IV; EAE_NEG = CNS_IVC.
+
+d,e, KEGG signalling GSEA for T cells (d) and B cells (e), EAE_POS versus EAE_NEG, showing the ten signalling terms with largest |NES|. Fill, -log10 FDR; area, set size. Black rings, FDR < 0.05 (T 0/10, exploratory; B 2/10, IL-17 and TNF).
+
+f,g, Pre-specified locked genes in T cells (f) and B cells (g) using unfiltered (all-cell) log2 fold change. Red, up in POS; blue, up in NEG. T cells n = 2,723/3,573; B cells n = 2,010/21,102 (POS/NEG).
+
+Statistics. FindMarkers: two-sided Wilcoxon rank-sum test with Benjamini-Hochberg adjustment. Heatmap downsampling is display-only. Source data are provided as a Source Data file.

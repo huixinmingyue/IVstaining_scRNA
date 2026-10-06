@@ -1,0 +1,23 @@
+"IV_group","IV_lab","lineage","Freq","total","Percentage"
+"IntraNeg","IV− (extravascular)","CD4 T",958,7519,12.7410559914882
+"IntraNeg","IV− (extravascular)","CD8 T",1427,7519,18.9785875781354
+"IntraNeg","IV− (extravascular)","NKT-like",123,7519,1.63585583189254
+"IntraNeg","IV− (extravascular)","CD4/CD8 DP",126,7519,1.67575475462163
+"IntraNeg","IV− (extravascular)","T other",892,7519,11.8632796914483
+"IntraNeg","IV− (extravascular)","B-T doublet",353,7519,4.69477324112249
+"IntraNeg","IV− (extravascular)","B cell",2861,7519,38.0502726426386
+"IntraNeg","IV− (extravascular)","cDC2",379,7519,5.04056390477457
+"IntraNeg","IV− (extravascular)","NK",258,7519,3.43130735470142
+"IntraNeg","IV− (extravascular)","Plasma cell",93,7519,1.23686660460168
+"IntraNeg","IV− (extravascular)","Neutrophil",49,7519,0.651682404575076
+"IntraPos","IV+ (intravascular)","CD4 T",279,7752,3.59907120743034
+"IntraPos","IV+ (intravascular)","CD8 T",1313,7752,16.937564499484
+"IntraPos","IV+ (intravascular)","NKT-like",310,7752,3.99896800825593
+"IntraPos","IV+ (intravascular)","CD4/CD8 DP",53,7752,0.683694530443756
+"IntraPos","IV+ (intravascular)","T other",684,7752,8.82352941176471
+"IntraPos","IV+ (intravascular)","B-T doublet",315,7752,4.06346749226006
+"IntraPos","IV+ (intravascular)","B cell",3121,7752,40.2605779153767
+"IntraPos","IV+ (intravascular)","cDC2",819,7752,10.5650154798762
+"IntraPos","IV+ (intravascular)","NK",780,7752,10.061919504644
+"IntraPos","IV+ (intravascular)","Plasma cell",45,7752,0.580495356037152
+"IntraPos","IV+ (intravascular)","Neutrophil",33,7752,0.425696594427245

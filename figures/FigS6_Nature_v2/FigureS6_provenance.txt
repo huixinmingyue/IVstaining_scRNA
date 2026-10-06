@@ -1,0 +1,28 @@
+Figure S6 v2 | provenance
+=========================
+
+Content origin
+  Revision of Fig. S6 so UMAP panels a and d are reclustered then
+  subset, not leftover cells on the parent T-cell UMAP. Source figures
+  and upstream plotting scripts were copied into this folder. Nothing
+  outside this folder was written to. FigS6_Nature_v1 is unchanged.
+
+Panel map
+  a    reclustered T-cell UMAP after QC drop
+  b    oligo-CD45 violins
+  c    binned subtype share
+  d    high/low subset of the same reclustered embedding
+  e    tail composition
+  f    memory/activated CD4 Wilcoxon High vs Low
+
+Reuse level
+  Structural adaptation of Fig. S6 v1 / Fig. 5 b-g drawing logic.
+  UMAP coordinates are new (recluster of QC-filtered T cells).
+
+Reproduce
+  Rscript scripts/00_prepare_source.R
+  Rscript scripts/make_figureS6.R
+  Rscript qa/preview.R
+
+Image integrity
+  Vector line art only. No gene is added that is absent from FindMarkers.

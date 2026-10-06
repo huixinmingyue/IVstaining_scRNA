@@ -1,0 +1,62 @@
+Core conclusion:
+  In one EAE brain section the vascular-contact (EAE_POS / MgIV) and
+  parenchymal (EAE_NEG / MgIVC) programmes partition in opposite directions.
+  L1–L3 and L4–L6 are separate perivascular windows: L1–L3 is the original
+  lesion set, and L4–L6 is shown at the same magnification and tested on
+  its own. Cxcl10 detection remains enriched in vascular-contact microglia
+  and decays with distance from large vessels.
+
+Figure archetype: asymmetric mixed-modality figure
+Target journal/output: Nature-family double column
+Backend: R exclusive (ggplot2 / patchwork / scattermore / svglite / cairo_pdf / ragg)
+Final size: 183 mm wide, height at most 247 mm
+
+Panel map:
+  a  T-cell EAE_POS / EAE_NEG maps, plus the paired difference by window
+  b  Microglia EAE_POS / EAE_NEG maps, plus the paired difference by window
+  c  H&E plus the four scores inside L1–L3
+  d  The same five-tile layout inside L4–L6
+  e  Within-spot EAE_POS minus EAE_NEG, Outside vs L1–L3 vs L4–L6
+  f  Spatial Cxcl10 in EAE_POS and EAE_NEG microglia, six windows
+  g  Cxcl10-positive fraction, whole section, L1–L3 and L4–L6
+  h  Cxcl10 on the vessel mask, perivascular enrichment, distance gradient
+  i  Microglia on the vessel mask and cell-to-vessel distance,
+     whole section, L1–L3 and L4–L6
+  Removed: the independent pMCAO glycolysis panel
+
+Evidence hierarchy:
+  hero: f, g, h (Cxcl10 compartment and vessel gradient)
+  localisation: a, b, c, d, i
+  paired quantification: a, b, e
+  L1–L3 and L4–L6 are never pooled
+
+Statistics needed:
+  signed-rank of the within-spot difference vs 0, BH within that family
+  rank-sum of each window set vs outside, BH within that family
+  Fisher exact odds ratio with 95% CI and Wilson intervals
+  Spearman correlation of distance against Cxcl10 count
+  exact P/q printed; no asterisk codes
+  L1–L3 holds only 3 EAE_NEG / MgIVC microglial spots. The bar and the
+  violin are drawn because they were requested, and the n is stated.
+  Panel g uses a free y axis so that wide Wilson interval does not
+  flatten the other two scopes.
+
+Source data:
+  spot-level prediction scores, L1–L3 membership, L4–L6 rectangles,
+  Cxcl10 counts, vessel mask, nearest-vessel distance
+
+Image-integrity notes:
+  The only rasters are the unmodified low-resolution H&E crops in c and d.
+  No contrast, gamma or channel adjustment. Distances stay in image pixels.
+
+Reviewer risk:
+  Panels a–i are one EAE section; n is spots, not biological replicates.
+  L4–L6 need not repeat the L1–L3 direction, so the two sets stay separate.
+  The vessel mask is 123 of 32,811 spots.
+  L1–L3 EAE_NEG microglia n = 3.
+
+Reuse:
+  Structural adaptation of the previous Figure 8 script.
+  Panel d reuses the panel-c tile geometry on the L4–L6 bounding box.
+  Window sets: L1–L3 = the original lesion spot list; L4–L6 = spots inside
+  the added rectangles. The two sets do not overlap.

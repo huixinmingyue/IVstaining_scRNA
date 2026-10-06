@@ -1,0 +1,82 @@
+Figure 6 | QA record — Fig6_Nature_v3
+====================================
+
+This folder is new and does not overwrite Fig6_Nature_v1 or
+Fig6_Nature_v2.
+
+Requested change
+----------------
+Place panels c and d on one row as matched horizontal POS/NEG bar
+charts. Show only the All-cells series on the locked-gene Mac/Mg
+panels (requested as f-g; lettered g and h after CellChat as d and
+KEGG as e-f).
+
+Reuse level
+-----------
+Structural adaptation of Fig6_Nature_v2. Layout of c-d and the
+locked-gene series are the only intended changes.
+
+Panel-by-panel visual audit
+---------------------------
+a  Unstretched FACS; vector NEG / POS / Extra CD45 / Intra CD45.
+   Native 58.3 / 15.4 glyphs retained. Residual FlowJo tick numerals
+   remain on the supplied raster. Square plate sits in the left
+   column beside the UMAP.
+b  All 46,976 cells (15,792 POS; 31,184 NEG). Direct labels; a few
+   remain close in NEG (Mac / DC). Legend below the UMAPs.
+c  Horizontal dodged POS/NEG proportion bars; B cell at top. Single-
+   group proportions, no replicate uncertainty. Shared POS/NEG
+   legend with d sits under the c-d row.
+d  Ten original POS/NEG outgoing ratios. Composition-matched series
+   omitted by request. Log10 x; bars grow from a ratio of 1
+   (POS-high to the right, NEG-high to the left); fill encodes
+   direction with the same POS/NEG colours as c. MIF (ratio 0.98)
+   is a near-baseline sliver. All 10 ratios finite and > 0.
+e  Exploratory Mac KEGG; no signalling term at FDR < 0.05
+   (lowest 0.42, Prolactin signaling).
+f  Three FDR < 0.05 Mg signalling terms with black outlines
+   (AGE-RAGE, IL-17, Chemokine).
+g  Locked Mac genes, All-cells log2 FC only. S100a9 at top, Anxa1
+   at bottom, matching the source factor order.
+h  Locked Mg genes, All-cells log2 FC only. Tgfbr1 at top, Anxa1 at
+   bottom. Cell-filtered series omitted by request.
+
+Data integrity
+--------------
+Panel a crop: 429 x 405 px at +75+69; no contrast change.
+Panel b: 46,976 -> 46,976; all plotted.
+Panel c: 18 rows, none dropped.
+Panel d: 23 CellChat pathways in the comparison table; 10 displayed
+  (GALECTIN to CSF); composition-matched columns not plotted;
+  bars drawn from xmin = 1 to the original ratio.
+Panel e/f: cached enrichKEGG (Mac 218 terms, Mg 273 terms);
+  signalling-name display filter after testing.
+Panels g/h: locked-gene table 47 rows -> 26 Mac/Mg; 21 T/B rows
+  omitted by request; cell-filtered log2 FC series omitted by
+  request (All-cells series retained).
+No sampling, no simulated values.
+
+Typography and export
+---------------------
+Family Arial. SVG font sizes 5.2, 6.5, 7.0 and 8.0 pt. Canvas
+183 x 230 mm. PNG 4322 x 5433 px = 182.96 x 230.00 mm at 600 dpi.
+PDF/SVG text editable. Rasterised: panel-a FACS and UMAP marks.
+
+Automated checks
+----------------
+validate_figure.py: 17 pass, 3 warn, 0 fail. Warnings: R delimiter
+check; log10 on panel d is guarded by dropping non-finite and <= 0
+ratios (none in TOP10 original) and by drawing bars from 1;
+"uncertainty" is ggrepel seed / median labels, not missing error
+bars.
+cairo_pdf Tf = 1 pt is the known false positive; SVG sizes are 5.2-8.0 pt.
+
+Reviewer items
+--------------
+1. Panel e has no FDR-significant signalling term; keep exploratory
+   label or drop the panel.
+2. Confirm AGE-RAGE and IgSF CAM in panel f.
+3. Locked-gene lists are a pre-specified set, not a de novo DEG call.
+4. POS/NEG fill in d encodes ratio direction; in c it encodes group
+   identity. The shared legend is defined in the figure legend.
+5. MIF is almost 1, so its bar is barely visible by construction.

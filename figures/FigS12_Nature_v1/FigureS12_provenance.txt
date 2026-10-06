@@ -1,0 +1,4 @@
+Figure S12 provenance
+Reuse level: structural adaptation of the native ggplot two-section Visium figure
+The named raster-plate SVG is stored under source_figures and was not redrawn as embeds
+This folder is new and does not overwrite any previous FigS9 or FigS1-S10 package

@@ -1,0 +1,8 @@
+Figure 9 QA
+Size 183.0 x 246.6 mm. R only. 600 dpi PNG/TIFF, SVG, cairo_pdf.
+Glyph floor 5.2 pt. Panel tags 8 pt.
+cairo_pdf Tf = 1 is a CTM false positive; judge size from the SVG.
+L1-L3 and L4-L6 are not pooled.
+L1-L3 EAE_NEG microglia n = 3; the bar and the violin are drawn and the n is stated.
+H&E tiles are unmodified crops. No micrometre scale bar.
+validate_figure.py is recorded after the render.

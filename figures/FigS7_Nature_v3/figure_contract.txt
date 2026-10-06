@@ -1,0 +1,44 @@
+Core conclusion:
+  After marker-defined identity of CNS immune clusters, CellChat
+  interaction counts redistribute between EAE_POS and EAE_NEG, T and B
+  cells show KEGG signalling shifts (T exploratory; B IL-17 and TNF
+  FDR-significant), and pre-specified locked genes mark the unfiltered
+  T/B POS versus NEG contrast.
+
+Figure archetype: asymmetric mixed-modality
+Target journal/output: Nature-family SI; PDF/SVG/PNG/TIFF; 183 mm wide
+Backend: R exclusive (ggplot2 / patchwork)
+Final size: 183 x 473 mm
+
+Panel map:
+  a  Top-10 marker heatmap (y-axis gene labels)
+  b  Canonical lineage marker dot plot
+  c  CellChat interaction-number networks POS | NEG  (was v2 g)
+  d  T-cell KEGG signalling GSEA
+  e  B-cell KEGG signalling GSEA
+  f  T-cell locked-gene log2FC, all cells only  (was v2 e)
+  g  B-cell locked-gene log2FC, all cells only  (was v2 f)
+
+Evidence hierarchy:
+  hero: a (identity)
+  comparison: c (CellChat)
+  mechanism: d/e (signalling)
+  support: b, f/g (locked genes, all cells)
+
+Statistics needed:
+  Heatmap display downsample 150/cluster seed 42; full n reported
+  CellChat interaction totals POS vs NEG
+  KEGG NES, setSize, p.adjust; black ring FDR < 0.05
+  Locked genes: all-cell log2FC only; n POS/NEG unfiltered
+
+Source data needed:
+  heatmap RDS, dotplot, interaction counts, KEGG top10,
+  locked_genes_cellfilter (T/B, all_log2FC)
+
+Image-integrity notes:
+  Heatmap downsample is display-only
+  f/g omit the cell-filtered series by request
+
+Reviewer risk:
+  T-cell KEGG has 0 pathways at FDR < 0.05
+  UK NEG n=14 kept in the network

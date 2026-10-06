@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.DS_Store
+Thumbs.db
+*.rds
+*.png
+*.pdf
+*.svg
+*.tiff
+*.tif
+qa/
+assets/
+_assemble.ps1

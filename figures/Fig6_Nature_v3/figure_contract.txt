@@ -1,0 +1,44 @@
+Core conclusion:
+  IV CD45 gates separate vascular-contact (POS) from parenchyma-associated
+  (NEG) CNS immune cells. Original CellChat outgoing POS/NEG ratios for
+  the top 10 pathways (GALECTIN to CSF) mark a CXCL/ANNEXIN-high POS
+  programme. Macrophage and microglia DEGs enrich distinct KEGG
+  signalling terms, and locked myeloid genes show POS/NEG log2
+  fold-change in all cells.
+
+Figure archetype: asymmetric mixed-modality
+Target journal/output: Nature double column
+Backend: R (ggplot2 / patchwork / ggrepel / scattermore / magick)
+Final size: 183 x 230 mm
+Panel map:
+  a  IV CD45 FACS gates (NEG / POS; Extra CD45 vs Intra CD45)
+  b  UMAP of CNS immune cells split by POS and NEG
+  c  Cell-type composition in POS versus NEG (horizontal bars)
+  d  CellChat outgoing POS/NEG ratio, original matrices only
+     (GALECTIN to CSF); same-row matched bars with c
+  e  Macrophage KEGG ORA, signalling terms (display filter)
+  f  Microglia KEGG ORA, signalling terms (display filter)
+  g  Locked macrophage genes, all-cells log2 FC
+  h  Locked microglia genes, all-cells log2 FC
+Evidence hierarchy:
+  hero: d (original outgoing POS/NEG ratios)
+  support: a (how POS/NEG were gated)
+  support: b, c (compositional shift)
+  support: e, f (KEGG signalling ORA of Mac/Mg DEGs)
+  support: g, h (locked Mac/Mg genes in all cells)
+Statistics needed:
+  n cells in b; proportions in c; CellChat POS/NEG outgoing ratio in d
+  (log10 axis; ratio <= 0 or non-finite not plotted; fill POS if
+  ratio >= 1 else NEG); enrichKEGG BH FDR in e/f (full KEGG test;
+  signalling is display-only); locked-gene all-cell log2 FC in g/h
+Source data: FACS TIFF; UMAP table; proportions; CellChat original vs
+  matched table (original columns only); cached KEGG ORA; locked-gene
+  cell-filter table (Mac/Mg rows; All-cells columns only)
+Image-integrity notes: panel a crop unchanged from the prior Fig. 6
+  build; no contrast change. Panel d drops the composition-matched
+  series by request. Panels g/h drop T-cell and B-cell locked genes
+  and the cell-filtered series by request.
+Reviewer risk:
+  macrophage signalling ORA has no FDR < 0.05 term (exploratory);
+  AGE-RAGE / IgSF CAM names in microglia KEGG; POS/NEG fill in d
+  encodes ratio direction, whereas in c it encodes group identity

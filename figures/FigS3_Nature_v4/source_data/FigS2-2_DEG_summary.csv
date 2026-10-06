@@ -1,0 +1,6 @@
+"panel","cluster","n_IntraNeg","n_IntraPos","n_genes_tested","n_IntraPos_up","n_IntraNeg_up","n_sig_excluded_RplRps_mt_Gm","n_labelled","fc_cutoff","padj_cutoff"
+"a","0",887,647,5131,56,171,25,202,0.5,0.001
+"b","1a",928,350,4957,112,84,12,184,0.5,0.001
+"c","1b",688,207,4600,33,32,15,50,0.5,0.001
+"d","3a",491,587,5013,16,22,9,29,0.5,0.001
+"e","3b",464,786,3828,21,38,9,50,0.5,0.001

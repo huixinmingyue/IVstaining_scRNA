@@ -1,0 +1,11 @@
+"PF_class","Tcelltype","n","pct","total"
+"Low (PF<=1)","Naive CD4 T",224,36.0708534621578,621
+"Low (PF<=1)","Naive CD8 T",194,31.2399355877617,621
+"Low (PF<=1)","Memory/activated CD4 T",66,10.6280193236715,621
+"Low (PF<=1)","Memory-like CD8 T",34,5.47504025764895,621
+"Low (PF<=1)","Unassigned",103,16.5861513687601,621
+"High (PF>=6)","Naive CD4 T",384,34.1637010676157,1124
+"High (PF>=6)","Naive CD8 T",372,33.0960854092527,1124
+"High (PF>=6)","Memory/activated CD4 T",149,13.2562277580071,1124
+"High (PF>=6)","Memory-like CD8 T",57,5.0711743772242,1124
+"High (PF>=6)","Unassigned",162,14.4128113879004,1124

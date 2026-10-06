@@ -1,0 +1,27 @@
+Core conclusion:
+  Oligo-CD45 conjugates are intact on gel. Harmony B cells split into
+  follicular, marginal-zone, immature and myeloid-contaminated islands,
+  and Proteinfeatures continuously shifts subset probability toward the
+  myeloid-contaminated island.
+
+Figure archetype: asymmetric mixed-modality
+Target journal/output: Nature double column (SI)
+Backend: R (ggplot2 / patchwork / svglite / cairo_pdf / ragg)
+Final size: 183 x 175 mm
+Panel map:
+  a  Oligo-CD45 conjugate gels (protein stain and fluorescence)
+  b  Harmony UMAP of B cells (resolution 0.2)
+  c  B-lineage and myeloid marker dot plot
+  d  Logistic P(Bcelltype) versus Proteinfeatures
+Evidence hierarchy:
+  hero: a (conjugate QC)
+  support: b (annotation islands)
+  validation: c (marker support)
+  support: d (PF as a continuous niche axis)
+Statistics needed: UMAP n; scaled mean and percent expressing on the
+  dot plot; binomial GLM per subset versus the rest
+Source data: gel PNG, UMAP table, dot-plot table, logistic curves
+Image-integrity notes: dual gel scan placed in full; MW markers are
+  part of the scan; lane names are vector text; no contrast stretch
+Reviewer risk: immature / pre-B n = 37; myeloid-contaminated is a
+  contaminant class, not a B subset

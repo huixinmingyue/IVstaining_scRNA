@@ -1,0 +1,29 @@
+Core conclusion:
+  In the spleen Stereo-seq section, follicular B-cell bins (cluster 1 and
+  cluster 5) and plasma-cell bins carry a higher CD45-IV-high than
+  CD45-IV-low reference score in the same spatial bin, whereas CD4 T-cell
+  bins (cluster 8 and cluster 4) shift in the opposite direction.
+
+Figure archetype: image plate + quant
+Target journal/output: Nature double column
+Backend: R (ggplot2 / patchwork / svglite / cairo_pdf / ragg)
+Final size: 183 x 312 mm
+Panel map:
+  a  B-cell niche (clusters 1, 5); Bcell.spcd452 in cluster 1 bins
+  b  Cluster 5 niche; Bcell.spcd45 in cluster 5 bins
+  c  Peri-follicular niche (4, 5, 8, 9); Plasma.spcd452 in cluster 9
+  d  B/T follicular niche (1, 4, 5, 8); CD4T.spcd45 in cluster 8
+  e  Clusters 4, 8 niche; CD4T.spcd45 in cluster 4
+Evidence hierarchy:
+  hero: a (largest paired high-minus-low shift)
+  support: b (same direction in the cluster-5 B subset)
+  validation: c (plasma, same direction)
+  contrast: d, e (CD4 T, opposite and smaller)
+Statistics needed: paired Wilcoxon signed-rank; median paired difference
+  with 95% CI; n bins
+Source data: slim Stereo-seq extracts for the five subsets
+Image-integrity notes: no micrographs; colour limits are 1st-99th percentile
+  of the pooled low/high scores in that row
+Reviewer risk: score maps and boxes use lineage-restricted bins, not every
+  highlighted niche cluster; b and e use a different B-cell reference build
+  (spcd45) or a different CD4 T bin set (cluster 4 vs cluster 8)

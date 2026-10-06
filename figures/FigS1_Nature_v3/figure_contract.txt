@@ -1,0 +1,32 @@
+Core conclusion:
+  IV compartments have comparable library quality; canonical markers support
+  the RNA-rule identities in Fig. 1; B-cell Intra DEGs overlap the MZ-versus-Fo
+  programme; remaining Intra DEGs in hard-gated true CD4 and true CD8 are
+  restricted after mixed-identity contamination is removed; plasma IV+ versus
+  IV- follows IgM versus IgG rather than a germinal-centre programme.
+
+Figure archetype: quantitative grid
+Target journal/output: Nature SI double column
+Backend: R exclusive (ggplot2 / patchwork / ggrepel / svglite / cairo_pdf / ragg)
+Final size: 183 x 270 mm
+Panel map:
+  a  nCount / nFeature / mito % / stress module by IV
+  b  lineage marker dot plot for Fig. 1 display identities (hero)
+  c  B-cell Intra volcano; labels = MZ vs Fo intersection
+  d  Wilcoxon volcano, hard-gated true CD4
+  e  Wilcoxon volcano, hard-gated true CD8
+  f  plasma Ighm / Ighg1 / Mki67 / Sdc1 / Cxcr4 (Aicda dropped)
+Evidence hierarchy:
+  hero evidence: b (identities) plus d (true-CD4 residual DEG)
+  validation: c (B MZ/Fo overlap), e (true CD8)
+  controls/robustness: a (library quality), f (plasma isotype, not GC)
+Statistics needed:
+  a,f  violin + box (median, IQR); n = cells in one pooled sample / compartment
+  b    percent expressing; z-scored mean of expm1(data), clipped +/-2.5
+  c-e  Wilcoxon, |log2FC| >= 0.5, adjusted P < 0.001; cell-level, descriptive
+Source data needed: source_data/*.csv and source_data_plotted/*.csv
+Image-integrity notes: vector points; no microscopy
+Reviewer risk: no extra/intra CITE protein; cell-level Wilcoxon overstates P;
+  one pooled sample per compartment (no biological replicate test);
+  Aicda omitted from f because it is undetectable in both compartments
+New folder FigS1_Nature_v3 — does not overwrite FigS1_Nature_v2 or other S1 folders

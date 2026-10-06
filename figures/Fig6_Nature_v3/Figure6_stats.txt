@@ -1,0 +1,21 @@
+Figure 6 statistics / integrity (Fig6_Nature_v3)
+Panel a raster after crop: 429 x 405 px; crop 429x405+75+69; no contrast change
+Panel a vector overlays: NEG, POS, Extra CD45, Intra CD45. Gate percentages 58.3 and 15.4 remain native cytometer glyphs.
+Panel b cells: before 46976 after NA drop 46976 (POS 15792, NEG 31184); all retained
+Panel c rows: before 18 after NA drop 18
+Panel d CellChat table: 23 pathways; kept TOP10 = GALECTIN, CCL, MIF, COMPLEMENT, CXCL, ANNEXIN, VISFATIN, TGFb, GRN, CSF
+Panel d original ratios: 10 rows; finite plotted 10; composition-matched series omitted by request
+KEGG ORA Mac: 218 terms tested, 2 with FDR < 0.05 overall
+KEGG ORA Mg: 273 terms tested, 9 with FDR < 0.05 overall
+Panel e display pool: 51 signaling terms, 0 with FDR < 0.05; top 10 by FDR plotted
+Panel f display pool: 56 signaling terms, 3 with FDR < 0.05; top 10 by FDR plotted
+Panel e best signaling FDR: 0.416 (Prolactin signaling pathway)
+Panel f best signaling FDR: 0.02 (AGE-RAGE signaling pathway in diabetic complications)
+Locked-gene table: before 47 rows; kept Mac/Mg 26; dropped T/B 21 by request
+Locked-gene series: All cells plotted; cell-filtered series omitted by request (1 series dropped)
+Locked Mac genes: Anxa1, F13a1, Cxcl9, Cxcl10, Cxcl16, Ccl5, Cd74, H2-Ab1, Arg1, Nos2, S100a8, S100a9
+Locked Mg genes: Cxcl13, Cxcl2, Cxcr2, Ccl5, Ccl2, Ccl3, Ccl4, Anxa1, Csf1, Tgfbr1, Cxcl10, Cxcl9, S100a8, S100a9
+KEGG: cached enrichKEGG ORA; BH FDR from the full KEGG test
+Signaling restriction in e/f is a display filter; FDR values were not recomputed on the subset
+Panel d log10 axis: ratios <= 0 or non-finite are not drawn (none in the TOP10 original set)
+Figure size: 183 x 230 mm

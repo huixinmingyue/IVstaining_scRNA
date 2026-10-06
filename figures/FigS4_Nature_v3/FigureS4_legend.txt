@@ -1,0 +1,30 @@
+Fig. S4 | Anatomical landmarks and Fig. 3 T-subset programmes on the
+Stereo-seq spleen section
+
+a, Log-normalised expression of Cr2 (CD21), Fcer2a (CD23), Cd4, Jchain,
+Marco and Adgre1 (F4/80) on the same section used in Fig. 4. Colour
+limits are the 1st-99th percentile of each gene. Scale bar, 1 mm
+(0.5 um per chip unit). n = 30,625 bins.
+
+b, Mean log-normalised expression versus follicle-centred normalised
+radius (0 = centroid of Louvain-5 follicle components; 1 = equivalent
+cluster-5 edge). Ribbons show SEM. Bins with n < 30 are omitted.
+The dashed line marks the follicle edge.
+
+c, Seurat TransferData prediction scores for the five Fig. 3 T islands
+(memory/activated CD4 T, naive CD4 T, naive CD8 T, memory-like CD8 T,
+effector/cytotoxic CD8 T) on the same section. Titles and colours match
+Fig. 3a,b. Plasma sequential scale; colour limits are the 1st-99th
+percentile of each score.
+
+d, Paired prediction scores in B/T-niche bins (Louvain 1+4+5+8;
+n = 14,026). Left, memory/activated CD4 T versus naive CD4 T
+(median paired Delta = +0.434, 95% CI +0.431 to +0.437). Right,
+naive CD8 T versus naive CD4 T (median paired Delta = +0.125,
+95% CI +0.123 to +0.128). Boxes show the median and interquartile
+range; whiskers, 1.5x IQR; points, individual bins. Two-sided paired
+Wilcoxon signed-rank test; P < 1e-16 for both contrasts. Names and
+fill colours match Fig. 3a,b.
+
+Spatial bins are the observation unit. One spleen section.
+Source data are provided as a Source Data file.

@@ -1,0 +1,31 @@
+Fig. 3 v4 functional annotation of CD4 1a/1b and CD8 0/3a/3b
+=============================================================
+Means are log-normalised RNA in true_CD4 (1a/1b) or true_CD8 (0/3a/3b).
+Detection = RNA > 0.
+
+CD4-1b  n = 433  ->  Naive conventional CD4 T
+  Ccr7 67%, Sell 67%, Tcf7 92%, Lef1 99%, Il7r 89%
+  Foxp3 0%, S100a4 3%, Cxcr3 0.7%
+
+CD4-1a  n = 699  ->  Memory/activated-like CD4 T
+  S100a4 40%, Cxcr3 29%, Cxcr6 13%, Il7r 82%
+  Ccr7 22%, Sell 20% (down versus 1b)
+  Foxp3 12%, Il2ra 16%, Ctla4 73%, Ikzf2 50%
+  Treg markers are enriched relative to 1b but Foxp3 is not majority,
+  so this island is not labelled as a Treg cluster.
+
+CD8-0   n = 1,374  ->  Naive CD8 T
+  Ccr7 76%, Sell 86%, Tcf7 95%, Lef1 99%, Cd8b1 97%
+  Ccl5 24%, Gzmb 1%, Eomes 6%
+
+CD8-3a  n = 585  ->  Memory-like / virtual-memory CD8 T
+  Eomes 49%, Il2rb 94%, Nkg7 98%, Cd8b1 90%
+  Ccr7 56% and Sell 84% retained; Gzma 5%, Gzmb 10%
+
+CD8-3b  n = 852  ->  Effector/cytotoxic CD8-like T
+  Ccl5 99%, Nkg7 96%, Prf1 41%, Gzma 24%, Gzmb 25%, Cd8b1 92%
+  Ccr7 4%, Sell 5%
+
+NKT (Klrb1c+) remains NKT-like T. Cluster 2 remains B-T doublet.
+No cluster is majority Trdc/Trgc, so gamma-delta T is not assigned
+as a display class. Treg is not a separate island.
